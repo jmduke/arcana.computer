@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: "en-US" }}">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8">
+    <title>{{ page.title }} - {{ site.title }}</title>
+    <link rel="stylesheet" href="{{ "/assets/css/main.css" | relative_url }}">
+  </head>
+  <body>
+    <div class="container">
+      
+      <div class="header">
+        <a href='/'>
+          <div class="logo">
+            arcana dot computer
+          </div>
+        </a>
+      </div>
+
+      <div class="content">
+      {{ content }}
+      </div>
+    </div>
+  </body>
+  <script src="/assets/js/sidenotes.js" async></script>
+</html>

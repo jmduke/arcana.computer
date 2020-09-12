@@ -1,0 +1,17 @@
+---
+layout: default
+---
+<h2>{{ page.title }}</h2>
+
+{% if page.rss %}
+<div class="notice">
+<div>
+    <strong>Follow changes over time via RSS:</strong>
+</div>
+    <div>
+    <a target="_blank" href="{{ page.rss }}">{{ page.rss }}</a>
+</div>
+</div>
+{% endif %}
+
+{{ content }}

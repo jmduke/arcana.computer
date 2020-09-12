@@ -1,0 +1,12 @@
+<div>
+<h2>{{ include.title }}</h2>
+<ul>
+  {% for catalog in include.c %}
+  {% if catalog.draft %}
+  <li><a class="draft" href="{{ catalog.url }}">{{ catalog.title }}</a></li>
+  {% else %}
+  <li><a href="{{ catalog.url }}">{{ catalog.title }}</a></li>
+  {% endif %}
+  {% endfor %}
+</ul>
+</div>

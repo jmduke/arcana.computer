@@ -1,0 +1,17 @@
+url: "arcana.computer" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "" # the subpath of your site, e.g. /blog
+title: "arcana.computer" # the name of your site, e.g. ACME Corp.
+collections:
+    industry:
+        output: true
+    engineering:
+        output: true
+    products:
+        output: true
+    mortems:
+        output: true
+    miscellany:
+        output: true
+    catalogs:
+        output: true
+collections_dir: writing
