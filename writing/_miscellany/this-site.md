@@ -14,6 +14,16 @@ todos:
   - Write about Airtable compiler
 ---
 
+## Design
+
+### Fonts
+
+I'm currently using [SF Pro](https://developer.apple.com/fonts/) as the primary font on this site and [IBM Plex Mono](https://fonts.google.com/specimen/IBM+Plex+Mono) as the monospace font.
+
+SF Pro was an anti-choice: I wanted a vanilla font is pretty much as vanilla as it gets.  IBM Plex Mono is the monospace font I use during development,
+so it feels like a natural fit. There are a few drawbacks with each: SF Pro doesn't exist on non-Mac machines, which is a comically user-hostile choice on my part,
+and at some point I might substitute it for something else. IBM Plex Mono doesn't support ligatures, which is a shame — code ligatures are nice! — but not a dealbreaker.
+
 ## Airtable
 
 Airtable is a SaaS for interacting with structured tabular data. If you’ve got a long memory, you can think of it as “Microsoft Access for millennials.” To hear them describe it:

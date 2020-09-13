@@ -4,7 +4,7 @@ title: Games
 rss: /rss/games.xml
 ---
 
-I like to play video games!
+I like to play video games! (I'm currently playing <strong>{{ site.data.currently[1]['name_(from_content)'] }}</strong>.)
 
 As you'll probably realize quickly, I'm a sucker for JRPGs and the RPG genre in general,
 but even within those confines I'm fairly normcore (lots of Final Fantasy, Fire Emblem, 

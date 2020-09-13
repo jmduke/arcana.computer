@@ -1,0 +1,23 @@
+---
+layout: rss
+title: Quotes
+description: RSS feed of new quotes and highlights from arcana.computer
+source: /catalogs/quotes
+permalink: /rss/quotes.xml
+---
+
+{% assign sorted = site.data.notebook | sort: 'name' | reverse %}
+{% for item in sorted limit:10 %}
+  <item>
+    <title>Notebook Entry #{{ item.name | xml_escape }}</title>
+    <description>{{ item.text }}</description>
+    <author>
+        {% if item.source %}{{ item.source.name }}{% else %}{{ item.author }}{% endif %}
+    </author>
+    {% if item.source_url %}
+    <link>
+        {{ item.source_url }}   
+    </link>
+    {% endif %}
+  </item>
+{% endfor %}

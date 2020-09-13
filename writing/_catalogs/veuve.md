@@ -1,7 +1,6 @@
 ---
 layout: catalog
 title: Veuve Clicquot
-rss: /rss/veuve.xml
 ---
 
 > I wouldn’t take the time to celebrate the achievement. 

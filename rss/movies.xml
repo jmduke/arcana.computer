@@ -1,0 +1,16 @@
+---
+layout: rss
+title: Movies
+description: RSS feed of new movies from arcana.computer
+source: /catalogs/movies
+permalink: /rss/movies.xml
+---
+
+{% assign sorted = site.data.content | sort: 'date' | reverse | where_exp:"item", "item.type == 'Movie' and item.rating" %}
+{% for item in sorted limit:10 %}
+  <item>
+    <title>{{ item.name | xml_escape }}</title>
+    <description>{{ item.summary | markdownify }}</description>
+    <pubDate>{{ item.date | date_to_rfc822 }}</pubDate>
+  </item>
+{% endfor %}

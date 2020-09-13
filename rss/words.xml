@@ -1,22 +1,15 @@
 ---
-layout: null
+layout: rss
+title: Words
+description: RSS feed of new words from arcana.computer
+source: /catalogs/words
+permalink: /rss/words.xml
 ---
-<?xml version="1.0" encoding="UTF-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>arcana.computer: Words</title>
-    <description>A feed of new words I have learned.</description>
-    <link>{{ site.url }}/2020/07/21/words-i-have-learned/</link>
-    <atom:link href="{{ "/changes/words.xml" | prepend: site.baseurl | prepend: site.url }}" rel="self" type="application/rss+xml"/>
-    <pubDate>{{ site.time | date_to_rfc822 }}</pubDate>
-    <lastBuildDate>{{ site.time | date_to_rfc822 }}</lastBuildDate>
-    <generator>Jekyll v{{ jekyll.version }}</generator>
-    {% for item in site.data.words limit:10 %}
-      <item>
-        <title>{{ item.name | xml_escape }}</title>
-        <description>{{ item.definition }}</description>
-        <pubDate>{{ item.date | date_to_rfc822 }}</pubDate>
-      </item>
-    {% endfor %}
-  </channel>
-</rss>
+
+{% for item in site.data.words limit:10 %}
+  <item>
+    <title>{{ item.name | xml_escape }}</title>
+    <description>{{ item.definition }}</description>
+    <pubDate>{{ item.date | date_to_rfc822 }}</pubDate>
+  </item>
+{% endfor %}

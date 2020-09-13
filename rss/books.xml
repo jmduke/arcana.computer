@@ -1,0 +1,16 @@
+---
+layout: rss
+title: Books
+description: RSS feed of new books from arcana.computer
+source: /catalogs/books
+permalink: /rss/books.xml
+---
+
+{% assign sorted = site.data.content | sort: 'date' | reverse | where_exp:"item", "item.type == 'Book' and item.rating" %}
+{% for item in sorted limit:10 %}
+  <item>
+    <title>{{ item.name | xml_escape }}</title>
+    <description>{{ item.summary | markdownify }}</description>
+    <pubDate>{{ item.date | date_to_rfc822 }}</pubDate>
+  </item>
+{% endfor %}
