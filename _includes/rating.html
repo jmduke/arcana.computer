@@ -1,0 +1,9 @@
+{% for i in (1..10) %}
+{% if i <= item.rating %}
+{% assign stars = stars | append: '&#9733;' %}
+{% else %}
+{% assign stars = stars | append: '&#9734;' %}
+{% endif %}
+{% endfor %}
+{{ stars }}
+{% assign stars = "" %}

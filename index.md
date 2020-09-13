@@ -3,13 +3,30 @@ layout: default
 title: Home page
 ---
 
-Hello! I'm Justin Duke. I've been writing on the internet since 2013; I've been writing on this site since 2020.
+<style>
+    p {
+        font-size: 24px;
+        line-height: 32px;
+    }
+</style>
 
-I'm an engineer at Stripe and I built and currently run Buttondown and Spoonbill.
+Hello! <strong>arcana dot computer</strong> is a weblog from <strong>Justin Duke</strong>. (That's me.)
 
-You might notice that some of these links aren't clickable yet — that's because I haven't written them.
+I work at Stripe during the day and I run Buttondown and Spoonbill. I write about the technology industry, with
+specific emphases on building and growing projects. I am also prone to a whole lot of navel-gazing, as you are probably
+soon to discover.
 
-Want to know when I do? Subscribe below:
+If you're 
+interested in subscribing to monthly updates from this project, you should subscribe below:
+
+<div class="subscription-input">
+    <input type='email' placeholder="your@lovely.email">
+    <button type="submit">Subscribe</button>
+</div>
+
+Alternatively, you can jump right into some writing.
+This domain is an ongoing work: links below that are stricken through are drafts.
+You're welcome to peruse them, of course!
 
 <div class="index-row">
 {% include content_pane.html c=site.industry title="Industry" %}
@@ -19,3 +36,6 @@ Want to know when I do? Subscribe below:
 {% include content_pane.html c=site.miscellany title="Miscellany" %}
 {% include content_pane.html c=site.catalogs title="Catalogs" %}
 </div>
+
+Lastly, if you're interested in chatting, you can find me on [Twitter]() or reach out over [email]().
+I love getting random tweets and emails, I promise.

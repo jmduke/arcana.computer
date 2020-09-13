@@ -1,0 +1,41 @@
+---
+layout: default
+---
+<h1>{{ page.title }}</h1>
+
+{% if page.updated %}
+<div class="colophon">
+<em>Updated on {{ page.updated }}</em>
+</div>
+{% endif %}
+
+{% if page.draft %}
+<div class='notice notice--draft'>
+<div>
+Hello! This page is a <strong>draft</strong>. Feel free and poke around, but there are
+significant structural and contentual pieces yet to be implemented. Mind the proverbial construction
+noise, and feel free to subscribe here to get notified once it's completed:
+
+<br /><br />
+
+<div class="subscription-input">
+    <input type='email' placeholder="your@lovely.email">
+    <button type="submit">Subscribe</button>
+</div>
+<br />
+
+{% if page.todos %}
+<div class="todo-list">
+{% for todo in page.todos %}
+<div class="todo">
+<input type="checkbox" onclick="return false;">
+  <label>{{ todo }}</label>
+  </div>
+  {% endfor %}
+</div>
+{% endif %}
+</div>
+</div>
+{% endif %}
+
+{{ content }}

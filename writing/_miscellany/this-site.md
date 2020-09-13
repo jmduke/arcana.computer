@@ -1,31 +1,18 @@
 ---
 title: How this site is built
-layout: default
-updated: 09-10-2020
+layout: page
+updated: September 12th, 2020
 draft: true
+todos:
+  - Write about etymology
+  - Write about goals of the site
+  - Transcribe prior art
+  - Include Airtable screenshots
+  - Add link to repository
+  - Add Netlify screenshot
+  - Write about use of Git & Github
+  - Write about Airtable compiler
 ---
-
-# {{ page.title }}
-<div class="colophon">
-<em>Updated {{ page.updated }}</em>
-</div>
-
-## Why is it called arcana.computer?
-
-## Principles
-
-> What sort of writing could you create if you worked on it (be it ever so rarely) for the next 60 years? 
-> What could you do if you started now?
-> — [Gwern](https://www.gwern.net/About#long-site)
-
-## Prior art
-
-I am a sucker for this genre of page. I think it is really fun to read through how other
-blogging technologists (and yes, I am cringing at my employment of that term) approach building
-their software. Some particular entries I enjoy:
-
-- [Gwern](https://www.gwern.net/About)
-- [Paul Stamatiou](https://paulstamatiou.com/about-this-website/)
 
 ## Airtable
 
@@ -63,6 +50,13 @@ Jekyll is good and I would recommend using it.  It has drawbacks: it is somewhat
 
 But it is popular — it is very rare to find yourself to be the first person to try and do something with Jekyll, which is a very large advantage unless you want to reimplement Atom generation for the thrill of it. The open source ecosystem for Jekyll is, while not as large as you might hope, probably as large as you need. And its popularity means that it plays nicely with things like [Github Pages]() and [Netlify]() for deployments.
 
+### Special sauce
+
+Most of my usage of Jekyll is fairly boring: boring is good! I do a handful of weird things to try
+and make the site sparkle, though:
+
+- [I use a JavaScript oneliner]() to better compress the timeline elements in [catalog pages].
+
 ## Netlify
 
 Netlify is a platform for deploying and extending static sites like this one.
@@ -83,3 +77,23 @@ The administrative story — making it easier for me to edit my writing away fro
 - [Avery Vine](https://www.averyvine.com/blog/programming/2019/10/04/publishing-to-jekyll-from-ipad-with-shortcuts-and-working-copy)
 
 I might try and copy their tactics, but they feel — at first glance — like a way to do a thing and say that it’s been done, rather than the optimal solution to the problem. I think over the next few years the process of publishing on an iPad will get much better, and I’m happy to punt on the problem for now.
+
+## Why is it called arcana.computer?
+
+## Principles
+
+> What sort of writing could you create if you worked on it (be it ever so rarely) for the next 60 years? 
+> What could you do if you started now?
+> — [Gwern](https://www.gwern.net/About#long-site)
+
+## Prior art
+
+I am a sucker for this genre of page. I think it is really fun to read through how other
+blogging technologists (and yes, I am cringing at my employment of that term) approach building
+their software. Some particular entries I enjoy:
+
+- [Gwern](https://www.gwern.net/About)
+- [Paul Stamatiou](https://paulstamatiou.com/about-this-website/)
+- [Jonnie Hallman]()
+
+[^1]: The concept of a "content diet" is one I stole from Steven Soderbergh; I've found it surprisingly useful and clarifying.
