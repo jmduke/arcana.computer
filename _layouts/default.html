@@ -5,6 +5,7 @@
     <meta charset="utf-8">
     <title>{{ page.title }} - {{ site.title }}</title>
     <link rel="stylesheet" href="{{ "/assets/css/main.css" | relative_url }}">
+    <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Mono:400,400i,500,600,600i,700" rel="stylesheet">
   </head>
   <body>
     <div class="container">
@@ -22,7 +23,7 @@
       </div>
 
       <div class="footer">
-        © 2020 Justin Duke • 𝑺𝑬𝑬 𝒀𝑶𝑼 𝑺𝑷𝑨𝑪𝑬 𝑪𝑶𝑾𝑩𝑶𝒀...
+        © 2020 Justin Duke • {{ site.data.footers | sample }}
       </div>
     </div>
   </body>

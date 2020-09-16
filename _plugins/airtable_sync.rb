@@ -5,8 +5,8 @@ require 'airtable'
 require 'active_support/all'
 
 # Pass in api key to client
-AIRTABLE_API_KEY = 'keyX4yPY1qYqq1pad'
-AIRTABLE_TABLE_ID = 'app5RDJQQni8Itd2D'
+AIRTABLE_API_KEY = ENV['AIRTABLE_API_KEY']
+AIRTABLE_TABLE_ID = ENV['AIRTABLE_TABLE_ID']
 
 @client = Airtable::Client.new(AIRTABLE_API_KEY)
 
