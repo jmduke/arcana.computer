@@ -4,14 +4,20 @@ title: "arcana.computer" # the name of your site, e.g. ACME Corp.
 collections:
     industry:
         output: true
+        permalink: /:collection/:name
     engineering:
         output: true
+        permalink: /:collection/:name
     products:
         output: true
+        permalink: /:collection/:name
     mortems:
         output: true
+        permalink: /:collection/:name
     miscellany:
         output: true
+        permalink: /:collection/:name
     catalogs:
         output: true
+        permalink: /:collection/:name
 collections_dir: writing
