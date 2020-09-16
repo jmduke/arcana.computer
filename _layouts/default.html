@@ -1,11 +1,39 @@
 <!DOCTYPE html>
 <html lang="{{ site.lang | default: "en-US" }}">
   <head>
+    <!-- Responsiveness & localization. -->
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta charset="utf-8">
-    <title>{{ page.title }} - {{ site.title }}</title>
+
+    <!-- Styles. -->
     <link rel="stylesheet" href="{{ "/assets/css/main.css" | relative_url }}">
     <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Mono:400,400i,500,600,600i,700" rel="stylesheet">
+
+    <!-- RSS. -->
+    {% if page.rss %}
+    <link 
+      rel="alternate" 
+      type="application/rss+xml" 
+      title="{{ site.title }}" 
+      href="{{ page.rss | prepend: site.baseurl | prepend: site.url }}" 
+    />
+    {% else %}
+    <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}" />
+    {% endif %}
+
+    <!-- SEO. -->
+    <title>{{ page.title }} · {{ site.title }}</title>
+    <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:creator" content="@justinmduke" />
+    <meta name="twitter:title" content="{{ page.title }} · {{ site.title }}" />
+    {% if page.image %}
+      <meta property="og:image" content="{{ page.image }}" />
+      <meta name="twitter:image" content="{{ page.image }}" />
+    {% else %}
+      <meta property="og:image" content="{{ "/img/share.png" | prepend: site.url }}" />
+      <meta name="twitter:image" content="{{ "/img/share.png" | prepend: site.url }}" />
+    {% endif %}
   </head>
   <body>
     <div class="container">

@@ -21,3 +21,4 @@ collections:
         output: true
         permalink: /:collection/:name
 collections_dir: writing
+description: "Arcana Dot Computer is a web site about engineering and personality by Justin Duke."
