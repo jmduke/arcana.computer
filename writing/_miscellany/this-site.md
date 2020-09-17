@@ -66,6 +66,7 @@ Most of my usage of Jekyll is fairly boring: boring is good! I do a handful of w
 and make the site sparkle, though:
 
 - [I use a JavaScript oneliner]() to better compress the timeline elements in [catalog pages].
+- I use the [sample filter]() and [a list of admittedly hackneyed niceties](https://github.com/jmduke/arcana.computer/blob/master/_data/footers.yaml) to dynamically generate footers.
 
 ## Netlify
 
