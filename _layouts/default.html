@@ -28,8 +28,8 @@
     <meta name="twitter:creator" content="@justinmduke" />
     <meta name="twitter:title" content="{{ page.title }} · {{ site.title }}" />
     {% if page.image %}
-      <meta property="og:image" content="{{ page.image }}" />
-      <meta name="twitter:image" content="{{ page.image }}" />
+      <meta property="og:image" content="{{ page.image | prepend: site.url }}" />
+      <meta name="twitter:image" content="{{ page.image | prepend: site.url }}" />
     {% else %}
       <meta property="og:image" content="{{ "/assets/img/share.png" | prepend: site.url }}" />
       <meta name="twitter:image" content="{{ "/assets/img/share.png" | prepend: site.url }}" />
