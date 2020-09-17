@@ -3,6 +3,7 @@ title: How this site is built
 layout: page
 updated: September 12th, 2020
 draft: true
+image: /assets/img/share--this-site.png
 todos:
   - Write about etymology
   - Write about goals of the site
