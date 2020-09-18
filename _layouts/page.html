@@ -18,10 +18,17 @@ noise, and feel free to subscribe here to get notified once it's completed:
 
 <br /><br />
 
-<div class="subscription-input">
-    <input type='email' placeholder="your@lovely.email">
-    <button type="submit">Subscribe</button>
-</div>
+<form
+  action="https://buttondown.email/api/emails/embed-subscribe/jmduke"
+  method="post"
+  target="popupwindow"
+  onsubmit="window.open('https://newsletter.jmduke.com', 'popupwindow')"
+  class="subscription-input"
+>
+  <input name='email' type='email' placeholder="your@lovely.email">
+  <input type="hidden" value="1" name="embed">
+  <input type="submit" value="Subscribe">
+</form>
 <br />
 
 {% if page.todos %}

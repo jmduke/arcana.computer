@@ -19,10 +19,17 @@ soon to discover.
 If you're 
 interested in subscribing to monthly updates from this project, you should subscribe below:
 
-<div class="subscription-input">
-    <input type='email' placeholder="your@lovely.email">
-    <button type="submit">Subscribe</button>
-</div>
+<form
+  action="https://buttondown.email/api/emails/embed-subscribe/jmduke"
+  method="post"
+  target="popupwindow"
+  onsubmit="window.open('https://newsletter.jmduke.com', 'popupwindow')"
+  class="subscription-input"
+>
+  <input name='email' type='email' placeholder="your@lovely.email">
+  <input type="hidden" value="1" name="embed">
+  <input type="submit" value="Subscribe">
+</form>
 
 Alternatively, you can jump right into some writing.
 This domain is an ongoing work: links below that are stricken through are drafts.
@@ -37,5 +44,5 @@ You're welcome to peruse them, of course!
 {% include content_pane.html c=site.catalogs title="Catalogs" %}
 </div>
 
-Lastly, if you're interested in chatting, you can find me on [Twitter]() or reach out over [email]().
+Lastly, if you're interested in chatting, you can find me on [Twitter]({{ site.social.twitter }}) or reach out over [email]({{ site.social.email }}).
 I love getting random tweets and emails, I promise.
