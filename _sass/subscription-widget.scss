@@ -1,0 +1,38 @@
+.subscription-input {
+  display: flex;
+
+  input {
+    border: 1px solid $medium-color;
+    border-radius: 5px;
+    padding: 10px;
+    width: 100%;
+    box-sizing: border-box;
+    font-size: 14px;
+    line-height: 1.4em;
+    margin-right: 10px;
+
+    &[disabled] {
+      opacity: 0.5;
+    }
+  }
+
+  input[type="submit"] {
+    display: block;
+    width: 150px;
+    background: $accent-color;
+    border: 0;
+    color: $background-color;
+    outline: 0;
+    padding: 10px;
+    font-size: 14px;
+    font-weight: 800;
+    text-transform: uppercase;
+    box-sizing: border-box;
+    cursor: pointer;
+    text-align: center;
+
+    &[disabled] {
+      display: none;
+    }
+  }
+}

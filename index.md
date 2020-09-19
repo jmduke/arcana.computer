@@ -19,17 +19,7 @@ soon to discover.
 If you're 
 interested in subscribing to monthly updates from this project, you should subscribe below:
 
-<form
-  action="https://buttondown.email/api/emails/embed-subscribe/jmduke"
-  method="post"
-  target="popupwindow"
-  onsubmit="window.open('https://newsletter.jmduke.com', 'popupwindow')"
-  class="subscription-input"
->
-  <input name='email' type='email' placeholder="your@lovely.email">
-  <input type="hidden" value="1" name="embed">
-  <input type="submit" value="Subscribe">
-</form>
+{% include subscription-widget.html %}
 
 Alternatively, you can jump right into some writing.
 This domain is an ongoing work: links below that are stricken through are drafts.
