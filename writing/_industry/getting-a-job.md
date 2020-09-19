@@ -2,6 +2,7 @@
 title: Getting a job
 draft: true
 layout: page
+image: /assets/img/share--job.png
 todos:
 - Writing a good resume
 - Hitting the whisper network

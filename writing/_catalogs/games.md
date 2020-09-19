@@ -2,6 +2,7 @@
 layout: catalog
 title: Games
 rss: /rss/games.xml
+image: /assets/img/share--games.png
 ---
 
 I like to play video games! (I'm currently playing <strong>{{ site.data.currently[1]['name_(from_content)'] }}</strong>.)

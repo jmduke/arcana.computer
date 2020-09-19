@@ -2,6 +2,7 @@
 layout: catalog
 title: Quotes and highlights
 rss: /rss/quotes.xml
+image: /assets/img/share--quotes.png
 ---
 
 I collect quotes like trading cards. I don't have a strong criteria for inclusion in this list: if the
