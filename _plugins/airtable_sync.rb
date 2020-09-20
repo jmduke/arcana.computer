@@ -33,16 +33,27 @@ def write_records(records, output_path)
 end
 
 content_records = collect_records('Content')
-notebook_records = collect_records('Notebook')
+write_records(content_records, '_data/content.json')
 content_id_to_data = Hash[content_records.collect { |v| [v['id'], v] }]
+
+notebook_records = collect_records('Notebook')
 notebook_records.each do |record|
   next unless record['source']
 
   record['source'] = content_id_to_data[record['source'][0]]
 end
-
 write_records(notebook_records, '_data/notebook.json')
-write_records(content_records, '_data/content.json')
+
+diet_records = collect_records('Diet')
+diet_records.each do |record|
+  next unless record['content']
+
+  record['content'] = record['content'].map do |content_id|
+    content_id_to_data[content_id]
+  end
+end
+write_records(diet_records, '_data/diet.json')
+
 write_records(collect_records('Dictionary'), '_data/words.json')
 write_records(collect_records('Veuve'), '_data/veuve.json')
 write_records(collect_records('Press'), '_data/press.json')

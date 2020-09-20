@@ -1,78 +1,84 @@
 <div class="tabular-content-container">
-{% for item in include.content %}
-<div class="tabular-content-item">
-<div class="tabular-content-sidebar">
-<div class="tabular-content-sidebar-date">
-{{ item.date }}
-</div>
-<div class="tabular-content-sidebar-image">
-<img src="{{ item.image[0].url }}">
-</div>
-</div>
-<div class="tabular-content">
-<div class="tabular-content-header">
-<div class="tabular-content-header-name">
-  <a 
-    name="{{ item.name | slugify }}"
-    {% if item.permalink %}
-    href="{{ item.permalink }}"
-    {% else %}
-    href="#{{ item.name | slugify }}"
-    {% endif  %}
-  >
-    {{ item.name }}
-  </a>
-</div>
-</div>
-<div class="tabular-content-text">
-  {% if item.summary %}
-    {{ item.summary | markdownify }}
-  {% else %}
-    {{ item.definition | markdownify }}
-  {% endif %}
-</div>
-<div class="tabular-content-header-colophon">
-  {% if item.author %}
-  <div class="tabular-content-header-colophon-item">
-  Written by {{ item.author }}
+  {% for item in include.content %}
+  <div class="tabular-content-item">
+    <div class="tabular-content-sidebar">
+      <div class="tabular-content-sidebar-date">
+        {{ item.date }}
+      </div>
+      <div class="tabular-content-sidebar-image">
+        <img src="{{ item.image[0].url }}" />
+      </div>
+    </div>
+    <div class="tabular-content">
+      <div class="tabular-content-header">
+        <div class="tabular-content-header-name">
+          {% if item.name %}
+          <a
+            name="{{ item.name | slugify }}"
+            {%
+            if
+            item.permalink
+            %}
+            href="{{ item.permalink }}"
+            {%
+            else
+            %}
+            href="#{{ item.name | slugify }}"
+            {%
+            endif
+            %}
+          >
+            {{ item.name }}
+          </a>
+          {% else %}
+          <strong>
+            {% for c in item.content %} {% if c.rating %} {% if c.type %}
+            <a href="/catalogs/{{ c.type }}s/#{{ c.name | slugify }}"
+              >{{ c.name }}</a
+            >
+            {% endif %} {% else %} {{ c.name }} {% endif %}
+            <br />
+            {% endfor %}
+          </strong>
+          {% endif %}
+        </div>
+      </div>
+      <div class="tabular-content-text">
+        {% if item.summary %} {{ item.summary | markdownify }} {% else %} {{
+        item.definition | markdownify }} {% endif %}
+      </div>
+      <div class="tabular-content-header-colophon">
+        {% if item.author %}
+        <div class="tabular-content-header-colophon-item">
+          Written by {{ item.author }}
+        </div>
+        {% endif %} {% if item.source %}
+        <div class="tabular-content-header-colophon-item">
+          {% if item.content %} Discovered via
+          <a href="/catalogs/books/#{{ item.source | slugify }}"
+            >{{ item.source }}</a
+          >
+          {% else %} Discovered via {{ item.source }} {% endif %}
+        </div>
+        {% endif %} {% if item.rating %}
+        <div class="tabular-content-header-colophon-item">
+          {% include rating.html rating=item.rating %}
+        </div>
+        {% endif %} {% if item.year %}
+        <div class="tabular-content-header-colophon-item">
+          Made in {{ item.year }}
+        </div>
+        {% endif %} {% if item.console %}
+        <div class="tabular-content-header-colophon-item">
+          {{ item.console }}
+        </div>
+        {% endif %} {% if item.isbn %}
+        <div class="tabular-content-header-colophon-item">
+          ISBN: {{ item.isbn }}
+        </div>
+        {% endif %}
+      </div>
+    </div>
   </div>
-  {% endif %}
-
-  {% if item.source %}
-  <div class="tabular-content-header-colophon-item">
-    {% if item.content %}
-      Discovered via <a href="/catalogs/books/#{{ item.source | slugify }}">{{ item.source }}</a>
-    {% else %}
-      Discovered via {{ item.source }}
-    {% endif %}
-  </div>
-  {% endif %}
-
-  {% if item.rating %}
-  <div class="tabular-content-header-colophon-item">
-    {% include rating.html rating=item.rating %}
-  </div>
-  {% endif %}
-
-  {% if item.year %}
-  <div class="tabular-content-header-colophon-item">
-  Made in {{ item.year }}
-  </div>
-  {% endif %}
-
-  {% if item.console %}
-  <div class="tabular-content-header-colophon-item">
-  {{ item.console }}
-  </div>
-  {% endif %}
-
-  {% if item.isbn %}
-  <div class="tabular-content-header-colophon-item">
-  ISBN: {{ item.isbn }}
-  </div>
-  {% endif %}
-</div>
-</div>
-</div>
-{% endfor %}
+  {% endfor %}
 </div>
