@@ -1,7 +1,7 @@
 ---
 layout: catalog
 title: Veuve Clicquot
-image: /assets/img/share--veuve.png
+image: /assets/img/share/veuve.png
 ---
 
 > I wouldn’t take the time to celebrate the achievement. 

@@ -3,9 +3,12 @@ $timeline-gutter-size: 10px;
 
 .tabular-content-container {
   margin: auto;
-  margin-left: $timeline-left-column-size;
+  margin-left: $timeline-gutter-size;
   display: block;
   position: relative;
+  @media only screen and (min-width: 600px) {
+    margin-left: $timeline-left-column-size;
+  }
 }
 
 .tabular-content-item {
@@ -31,25 +34,42 @@ $timeline-gutter-size: 10px;
     height: 15px;
     width: 15px;
   }
+
+  @media only screen and (max-width: 600px) {
+    flex-direction: column;
+  }
 }
 
 .tabular-content-sidebar {
-  position: absolute;
-  left: $timeline-left-column-size * -1;
-  width: $timeline-left-column-size - ($timeline-gutter-size * 2);
+  @media only screen and (min-width: 600px) {
+    position: absolute;
+    left: $timeline-left-column-size * -1;
+    width: $timeline-left-column-size - ($timeline-gutter-size * 2);
+  }
+  @media only screen and (max-width: 600px) {
+    padding-left: $timeline-gutter-size * 2;
+    padding-right: $timeline-gutter-size * 2;
+    padding-bottom: $timeline-gutter-size * 2;
+  }
 }
 
 .tabular-content-sidebar-date {
   opacity: 0.4;
   text-align: right;
+  @media only screen and (max-width: 600px) {
+    text-align: left;
+  }
 }
 
 .tabular-content-sidebar-image img {
-  width: $timeline-left-column-size - ($timeline-gutter-size * 2);
   margin-top: $timeline-gutter-size;
 
   @media only screen and (max-width: 600px) {
     max-width: 100%;
+  }
+
+  @media only screen and (min-width: 600px) {
+    width: $timeline-left-column-size - ($timeline-gutter-size * 2);
   }
 }
 

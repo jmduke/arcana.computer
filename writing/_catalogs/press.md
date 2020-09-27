@@ -2,7 +2,7 @@
 layout: catalog
 title: Press
 rss: /rss/press.xml
-image: /assets/img/share--press.png
+image: /assets/img/share/press.png
 ---
 
 <style>

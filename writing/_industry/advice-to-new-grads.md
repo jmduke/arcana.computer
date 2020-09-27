@@ -1,7 +1,7 @@
 ---
 title: Advice to new grads
 layout: page
-image: /assets/img/share--new-grads.png
+image: /assets/img/share/new-grads.png
 ---
 
 (A living document.)

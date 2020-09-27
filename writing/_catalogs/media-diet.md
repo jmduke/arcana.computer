@@ -1,7 +1,7 @@
 ---
 layout: catalog
 title: Media diet
-image: /assets/img/share--media-diet.png
+image: /assets/img/share/diet.png
 ---
 
 The concept of a "media diet" is one that I _think_ I originally stole from [Steven Soderbergh](http://extension765.com/soderblogh/34-seen-read-2019) by way of [Kottke.org](https://kottke.org/20/01/steven-soderberghs-media-diet-for-2019). The idea is a simple one: write down whatever media (in my case video games, books, movies,

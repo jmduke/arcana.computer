@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Floradora
-image: /assets/img/share--floradora.png
+image: /assets/img/share/floradora.png
 draft: true
 ---
 

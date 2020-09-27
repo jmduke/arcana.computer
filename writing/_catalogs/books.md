@@ -2,7 +2,7 @@
 layout: catalog
 title: Books
 rss: /rss/books.xml
-image: /assets/img/share--books.png
+image: /assets/img/share/books.png
 ---
 
 I love to read! (I'm currently reading <strong>{{ site.data.currently[0]['name_(from_content)'] }}</strong> and listening to 

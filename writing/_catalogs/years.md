@@ -1,7 +1,7 @@
 ---
 layout: catalog
 title: Years in review
-image: /assets/img/share--years-in-review.png
+image: /assets/img/share/years-in-review.png
 ---
 
 Every year I write a post about the year I've had. These existed as stand-along blog posts

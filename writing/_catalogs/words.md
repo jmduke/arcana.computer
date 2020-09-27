@@ -2,7 +2,7 @@
 layout: catalog
 title: Words I have learned
 rss: /rss/words.xml
-image: /assets/img/share--words.png
+image: /assets/img/share/words.png
 ---
 
 When I was in high school and even more insufferable than I am now, a friend and I started a tumblr called "sun words".  The concept of this was to collect words that we discovered that were particularly succulent or mellifluous. [^1]

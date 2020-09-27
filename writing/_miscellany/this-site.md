@@ -3,7 +3,7 @@ title: How this site is built
 layout: page
 updated: September 12th, 2020
 draft: true
-image: /assets/img/share--this-site.png
+image: /assets/img/share/this-site.png
 todos:
   - Write about etymology
   - Write about goals of the site
@@ -21,7 +21,7 @@ todos:
 
 I'm currently using [SF Pro](https://developer.apple.com/fonts/) as the primary font on this site and [IBM Plex Mono](https://fonts.google.com/specimen/IBM+Plex+Mono) as the monospace font.
 
-SF Pro was an anti-choice: I wanted a vanilla font is pretty much as vanilla as it gets.  IBM Plex Mono is the monospace font I use during development,
+SF Pro was an anti-choice: I wanted a vanilla font is pretty much as vanilla as it gets. IBM Plex Mono is the monospace font I use during development,
 so it feels like a natural fit. There are a few drawbacks with each: SF Pro doesn't exist on non-Mac machines, which is a comically user-hostile choice on my part,
 and at some point I might substitute it for something else. IBM Plex Mono doesn't support ligatures, which is a shame — code ligatures are nice! — but not a dealbreaker.
 
@@ -43,21 +43,21 @@ In general, if something I’m cataloging can or should be tied back to the cont
 
 There are a lot of risks with using Airtable: I’d prefer to be using something open-source and plaintext-friendly if possible. But the advantages of Airtable — really robust filtering/searching, a UI I can use from my iPad or iPhone, and support for foreign links — outweighs the risks thus far.
 
-I think the right long-term solution here is to migrate this to either an SQLite database or a very cleverly formatted YAML scheme, but there aren’t any satisfactory solutions for doing either on iPads yet. 
+I think the right long-term solution here is to migrate this to either an SQLite database or a very cleverly formatted YAML scheme, but there aren’t any satisfactory solutions for doing either on iPads yet.
 
 ## Jekyll
 
 > Jekyll is a static site generator. It takes text written in your favorite markup language and uses layouts to create a static website. You can tweak the site’s look and feel, URLs, the data displayed on the page, and more. — [Jekyll Docs](https://jekyllrb.com/docs/)
 
-I use Jekyll to compile this site. Jekyll is, at least in my zeitgeist, *the* Platonic ideal of a static site generator: it is not perfect, but it is by far the most popular and most-discussed (a fact largely due to its longevity).
+I use Jekyll to compile this site. Jekyll is, at least in my zeitgeist, _the_ Platonic ideal of a static site generator: it is not perfect, but it is by far the most popular and most-discussed (a fact largely due to its longevity).
 
-Jekyll is...*fine*. 
+Jekyll is..._fine_.
 
-I don’t mean this in a disparaging way! 
+I don’t mean this in a disparaging way!
 
 I’ve spent a lot of time trying out different static site generators. I’ve attempted to port this site (or some incarnation of it) to [Pelican], to [Hugo], to [Eleventy], and to countless static site generators. I’ve attempted migrations to [Wordpress], to [Ghost], and even [Tumblr] at one point. All of these platforms have pros and cons, but my motivations for trying out each and every one of them came less from a specific pain point I ran into with Jekyll and more a misguided beatification of the unknown. “The reason I’m not blogging more is because of _software reasons_”, I would tell myself, and then in vain try to spend a weekend rewriting my RSS generation as if that’s a cure for writer’s block.
 
-Jekyll is good and I would recommend using it.  It has drawbacks: it is somewhat slow (my site takes around twenty seconds to recompile, which is painful especially when I’m messing around with CSS), it is not particularly extendible, and it relies on a very finicky Ruby toolchain.
+Jekyll is good and I would recommend using it. It has drawbacks: it is somewhat slow (my site takes around twenty seconds to recompile, which is painful especially when I’m messing around with CSS), it is not particularly extendible, and it relies on a very finicky Ruby toolchain.
 
 But it is popular — it is very rare to find yourself to be the first person to try and do something with Jekyll, which is a very large advantage unless you want to reimplement Atom generation for the thrill of it. The open source ecosystem for Jekyll is, while not as large as you might hope, probably as large as you need. And its popularity means that it plays nicely with things like [Github Pages]() and [Netlify]() for deployments.
 
@@ -94,7 +94,7 @@ I might try and copy their tactics, but they feel — at first glance — like a
 
 ## Principles
 
-> What sort of writing could you create if you worked on it (be it ever so rarely) for the next 60 years? 
+> What sort of writing could you create if you worked on it (be it ever so rarely) for the next 60 years?
 > What could you do if you started now?
 > — [Gwern](https://www.gwern.net/About#long-site)
 
