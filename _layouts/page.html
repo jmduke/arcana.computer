@@ -1,38 +1,36 @@
 ---
 layout: default
 ---
+
 <h1>{{ page.title }}</h1>
 
 {% if page.updated %}
 <div class="colophon">
-<em>Updated on {{ page.updated }}</em>
+  <em>Updated on {{ page.updated }}</em>
 </div>
-{% endif %}
+{% endif %} {% if page.draft %}
+<div class="notice notice--draft">
+  <div>
+    Hello! This page is a <strong>draft</strong>. Feel free and poke around, but
+    there are significant structural and contentual pieces yet to be
+    implemented. Mind the proverbial construction noise, and feel free to
+    subscribe here to get notified once it's completed:
 
-{% if page.draft %}
-<div class='notice notice--draft'>
-<div>
-Hello! This page is a <strong>draft</strong>. Feel free and poke around, but there are
-significant structural and contentual pieces yet to be implemented. Mind the proverbial construction
-noise, and feel free to subscribe here to get notified once it's completed:
+    <br /><br />
 
-<br /><br />
+    {% include subscription-widget.html %}
+    <br />
 
-{% include subscription-widget.html %}
-<br />
-
-{% if page.todos %}
-<div class="todo-list">
-{% for todo in page.todos %}
-<div class="todo">
-<input type="checkbox" onclick="return false;">
-  <label>{{ todo }}</label>
+    {% if page.todos %}
+    <div class="todo-list">
+      {% for todo in page.todos %}
+      <div class="todo">
+        <input type="checkbox" onclick="return false;" />
+        <label>{{ todo }}</label>
+      </div>
+      {% endfor %}
+    </div>
+    {% endif %}
   </div>
-  {% endfor %}
 </div>
-{% endif %}
-</div>
-</div>
-{% endif %}
-
-{{ content }}
+{% endif %} {{ content }}

@@ -16,13 +16,14 @@ I work at Stripe during the day and I run Buttondown and Spoonbill. I write abou
 specific emphases on building and growing projects. I am also prone to a whole lot of navel-gazing, as you are probably
 soon to discover.
 
-If you're 
+If you're
 interested in subscribing to monthly updates from this project, you should subscribe below:
 
 {% include subscription-widget.html %}
 
 Alternatively, you can jump right into some writing.
-This domain is an ongoing work: links below that are stricken through are drafts.
+This domain is an ongoing work: links below that are stricken through are drafts, and unclickable links
+are placeholders for future content.
 You're welcome to peruse them, of course!
 
 <div class="index-row">

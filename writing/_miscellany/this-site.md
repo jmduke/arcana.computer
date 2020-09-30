@@ -109,3 +109,15 @@ their software. Some particular entries I enjoy:
 - [Jonnie Hallman]()
 
 [^1]: The concept of a "content diet" is one I stole from Steven Soderbergh; I've found it surprisingly useful and clarifying.
+
+## What's left to be done
+
+There are still a handful of things I'd like to do on this site. (If there's any takeaway you should have from this post — and the site itself! — it's that a large to-do list should never be a blocker for publication.) They are, roughly:
+
+- Figuring out how to automatically generate share images
+- Adding a better pre-commit linter
+- Adding a step to download & optimize images (they're being stored on Airtable at the moment)
+- Fix up sidenotes, which are currently disabled
+- Allow clicking on images to expand and center them
+
+I'm sure this list will balloon over time, like any good backlog. But I still love this site, and sincerely hope that you enjoy it as well.

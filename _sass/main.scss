@@ -8,6 +8,8 @@ $font: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial,
   sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
 $monospace-font: "IBM Plex Mono";
 
+$mobile-breakpoint: 600px;
+
 body {
   background: $background-color;
   color: $primary-color;
@@ -39,7 +41,7 @@ code {
   border-bottom-left-radius: 5px;
   border-bottom-right-radius: 5px;
 
-  @media only screen and (max-width: 600px) {
+  @media only screen and (max-width: $mobile-breakpoint) {
     border-bottom-left-radius: 0;
   }
 }
@@ -47,13 +49,13 @@ code {
 .content {
   flex: 1;
 
-  @media only screen and (max-width: 600px) {
+  @media only screen and (max-width: $mobile-breakpoint) {
     padding: 10px;
   }
 }
 
 .container {
-  max-width: 600px;
+  max-width: $mobile-breakpoint;
   margin: 0 auto;
   display: flex;
   flex-direction: column;
@@ -108,7 +110,7 @@ h2 {
   top: 50px;
   position: absolute;
   width: 200px;
-  right: calc(50% - 600px + 50px);
+  right: calc(50% - $mobile-breakpoint + 50px);
 
   p {
     font-size: 14px;
@@ -116,7 +118,7 @@ h2 {
     line-height: 20px;
   }
 
-  @media only screen and (max-width: 600px) {
+  @media only screen and (max-width: $mobile-breakpoint) {
     display: none;
   }
 }
@@ -164,7 +166,7 @@ pre {
     &:last-child {
       text-align: right;
 
-      @media only screen and (max-width: 600px) {
+      @media only screen and (max-width: $mobile-breakpoint) {
         text-align: left;
       }
     }
@@ -173,7 +175,7 @@ pre {
     }
   }
 
-  @media only screen and (max-width: 600px) {
+  @media only screen and (max-width: $mobile-breakpoint) {
     flex-direction: column;
   }
 }
@@ -197,7 +199,7 @@ a {
   grid-template-columns: 1fr 1fr;
   margin-top: -20px;
 
-  @media only screen and (max-width: 600px) {
+  @media only screen and (max-width: $mobile-breakpoint) {
     grid-template-columns: 1fr;
   }
 
@@ -241,16 +243,21 @@ a {
   opacity: 0.4;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: $mobile-breakpoint) {
   .logo {
     max-width: inherit;
   }
 }
 
+a.placeholder {
+  opacity: 0.5;
+  color: $primary-color !important;
+  text-decoration: none;
+}
+
 a.draft {
   opacity: 0.5;
   color: $primary-color !important;
-  text-decoration: line-through;
 }
 
 .todo-list {
