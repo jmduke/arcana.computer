@@ -2,11 +2,11 @@
   {% for item in include.content %}
   <div class="tabular-content-item">
     <div class="tabular-content-sidebar">
-      <div class="tabular-content-sidebar-date">
-        {{ item.date }}
-      </div>
+      <div class="tabular-content-sidebar-date">{{ item.date }}</div>
       <div class="tabular-content-sidebar-image">
+        {% if item.image %}
         <img src="{{ item.image[0].url }}" />
+        {% endif %}
       </div>
     </div>
     <div class="tabular-content">
