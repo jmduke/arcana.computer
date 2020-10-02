@@ -1,8 +1,8 @@
 ---
 layout: catalog
 title: Travels
-rss: /rss/quotes.xml
-image: /assets/img/share/quotes.png
+rss: /rss/travels.xml
+image: /assets/img/share/travels.png
 draft: true
 todos:
   - share image

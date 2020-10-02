@@ -1,0 +1,15 @@
+---
+layout: rss
+title: Travels
+description: RSS feed of new travels from arcana.computer
+source: /catalogs/travels
+permalink: /rss/travels.xml
+---
+
+{% for item in site.data.travels limit:10 %}
+  <item>
+	<title>{{ item.name | xml_escape }}</title>
+	<description>{{ item.definition }}</description>
+	<pubDate>{{ item.date | date_to_rfc822 }}</pubDate>
+  </item>
+{% endfor %}
