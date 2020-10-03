@@ -1,45 +1,40 @@
 <style>
-    .tabular-content-text p:first-child {
-        margin-top: 0;
-    }
-    .tabular-content-text p:last-child {
-        margin-bottom: 0;
-    }
+  .tabular-content-text p:first-child {
+    margin-top: 0;
+  }
+  .tabular-content-text p:last-child {
+    margin-bottom: 0;
+  }
 </style>
 <div class="tabular-content-container">
-    {% for item in include.content %}
-    <div class="tabular-content-item">
+  {% for item in include.content %}
+  <div class="tabular-content-item">
     <div class="tabular-content-sidebar">
-    <div class="tabular-content-sidebar-date">
-    #{{ item.name }}
-    </div>
-    <div class="tabular-content-sidebar-image">
-    <img src="{{ item.source.image[0].url }}">
-    </div>
+      <div class="tabular-content-sidebar-date">#{{ item.name }}</div>
+      <div class="tabular-content-sidebar-image">
+        {% if item.source.image %}
+        <img src="{{ item.source.image[0].url }}" />
+        {% endif %}
+      </div>
     </div>
     <div class="tabular-content">
-    <div class="tabular-content-text">
-      {{ item.text | markdownify }}
-    </div>
-    <div class="tabular-content-header-colophon">
-
-      {% if item.author %}
-      <div class="tabular-content-header-colophon-item">
+      <div class="tabular-content-text">{{ item.text | markdownify }}</div>
+      <div class="tabular-content-header-colophon">
+        {% if item.author %}
+        <div class="tabular-content-header-colophon-item">
           {% if item.source_url %}
           <a href="{{ item.source_url }}">{{ item.author }}</a>
-          {% else %}
-          {{ item.author }}
-          {% endif %}
+          {% else %} {{ item.author }} {% endif %}
+        </div>
+        {% endif %} {% if item.source %}
+        <div class="tabular-content-header-colophon-item">
+          <a href="/catalogs/books/#{{ item.source.name | slugify }}"
+            >{{ item.source.name }}</a
+          >
+        </div>
+        {% endif %}
       </div>
-      {% endif %}
-    
-      {% if item.source %}
-      <div class="tabular-content-header-colophon-item">
-        <a href="/catalogs/books/#{{ item.source.name | slugify }}">{{ item.source.name }}</a>
-      </div>
-      {% endif %}
     </div>
-    </div>
-    </div>
-    {% endfor %}
-    </div>
+  </div>
+  {% endfor %}
+</div>

@@ -1,0 +1,29 @@
+---
+title: Omnibus RSS feed
+description: RSS feed of all new content from arcana.computer
+permalink: /rss/omnibus.xml
+---
+
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+	<title>{{ site.title | xml_escape }}</title>
+	<description>{{ site.description | xml_escape }}</description>
+	<link>{{ site.url }}{{ site.baseurl }}/</link>
+	<atom:link href="{{ "/rss/omnibus.xml" | prepend: site.baseurl | prepend: site.url }}" rel="self" type="application/rss+xml"/>
+	<pubDate>{{ site.time | date_to_rfc822 }}</pubDate>
+	<lastBuildDate>{{ site.time | date_to_rfc822 }}</lastBuildDate>
+	<generator>Jekyll v{{ jekyll.version }}</generator>
+	
+	{% assign all_pages = site.industry | concat: site.engineering | concat: site.products | concat: site.mortems | concat: site.miscellany | concat: site.catalogs %}
+	{% assign sorted_pages = all_pages | sort: 'updated' | where: 'updated' | reverse %}
+	{% for post in sorted_pages limit: 10 %}
+	  <item>
+		<title>{{ post.title | xml_escape }}</title>
+		<description>{{ post.content | xml_escape }}</description>
+		<pubDate>{{ post.updated | date_to_rfc822 }}</pubDate>
+		<link>{{ post.url | prepend: site.baseurl | prepend: site.url }}</link>
+		<guid isPermaLink="true">{{ post.url | prepend: site.baseurl | prepend: site.url }}</guid>
+	  </item>
+	{% endfor %}
+  </channel>
+</rss>

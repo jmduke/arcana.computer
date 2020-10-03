@@ -17,7 +17,7 @@ specific emphases on building and growing projects. I am also prone to a whole l
 soon to discover.
 
 If you're
-interested in subscribing to monthly updates from this project, you should subscribe below:
+interested in subscribing to monthly updates from this project, you should subscribe below or via the [omnibus RSS feed](/rss/omnibus.xml):
 
 {% include subscription-widget.html %}
 
