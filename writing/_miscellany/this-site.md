@@ -110,6 +110,18 @@ their software. Some particular entries I enjoy:
 
 [^1]: The concept of a "content diet" is one I stole from Steven Soderbergh; I've found it surprisingly useful and clarifying.
 
+## A living table of contents
+
+You have probably noticed that the index page of this site has something of an aspirational table of contents:
+there are published posts, there are drafts of posts, there are outright placeholders for posts.  (There are, too,
+posts that will _never_ be finished, like my catalogs of [books](/catalogs/books).) [^1] [^2] 
+
+This accomplishes two things that are important to me:
+
+1. It frees this site from the shackles of "sort by creation date" publishing. I think the idea of sorting all of your
+content by order of creation is silly and a legacy of blogging software being a CRUD database; this is not Twitter, and I want this writing to be long-form and long-lasting.
+2. It reminds me of what is left to be written about. I don't know if this site will ever be meaningfully "finished" (I suspect it will not), but being able to glance at the index page and remember that I have a whole bunch of writing about prior projects that I haven't done yet is a useful symptom in of itself.
+
 ## What's left to be done
 
 There are still a handful of things I'd like to do on this site. (If there's any takeaway you should have from this post — and the site itself! — it's that a large to-do list should never be a blocker for publication.) They are, roughly:
@@ -121,3 +133,8 @@ There are still a handful of things I'd like to do on this site. (If there's any
 - Allow clicking on images to expand and center them
 
 I'm sure this list will balloon over time, like any good backlog. But I still love this site, and sincerely hope that you enjoy it as well.
+
+[^1]: I resent myself for using the noun "post" here, as I think that insinuates a lack of gravitas from which I'm
+trying to run away from.
+
+[^2]: I can't remember the first place where I saw this notion: the most recent one, and the one that comes to mind most immediately, is on Will Larson's [guide for staff engineers](https://staffeng.com/guides).

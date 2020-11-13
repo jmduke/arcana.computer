@@ -19,6 +19,10 @@ $timeline-gutter-size: 10px;
   padding: 0 0 50px 0px;
   position: relative;
 
+  @media (prefers-color-scheme: dark) {
+    border-left-color: #ffffff50;
+  }
+
   &:last-child {
     border-left: 0;
   }
@@ -33,6 +37,10 @@ $timeline-gutter-size: 10px;
     background: $soft-color;
     height: 15px;
     width: 15px;
+
+    @media (prefers-color-scheme: dark) {
+      background: #ffffff50;
+    }
   }
 
   @media only screen and (max-width: $mobile-breakpoint) {
@@ -95,4 +103,12 @@ $timeline-gutter-size: 10px;
 
 .tabular-content-header-colophon-item {
   margin-bottom: $timeline-gutter-size;
+}
+
+.tabular-content-header-name a {
+  color: $primary-color !important;
+
+  @media (prefers-color-scheme: dark) {
+    color: $background-color !important;
+  }
 }

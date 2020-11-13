@@ -16,6 +16,11 @@ body {
   font-family: $font;
   margin: 0;
   border-top: 3px solid $accent-color;
+
+  @media (prefers-color-scheme: dark) {
+    color: $background-color;
+    background: $primary-color;
+  }
 }
 
 img {
@@ -168,6 +173,10 @@ pre {
   display: flex;
   width: calc(100% - 2em);
 
+  @media (prefers-color-scheme: dark) {
+    background-color: #ffffff50;
+  }
+
   > div {
     flex: 1;
 
@@ -198,10 +207,6 @@ a {
   color: $accent-color !important;
 }
 
-.tabular-content-header-name a {
-  color: $primary-color !important;
-}
-
 .index-row {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -221,6 +226,10 @@ a {
     font-size: 14px;
     border-radius: 5px;
     margin-top: 20px;
+
+    @media (prefers-color-scheme: dark) {
+      background-color: #ffffff50;
+    }
   }
 
   h2 {
@@ -257,15 +266,18 @@ a {
   }
 }
 
-a.placeholder {
-  opacity: 0.5;
-  color: $primary-color !important;
-  text-decoration: none;
-}
-
+a.placeholder,
 a.draft {
   opacity: 0.5;
   color: $primary-color !important;
+
+  @media (prefers-color-scheme: dark) {
+    color: $background-color !important;
+  }
+}
+
+a.placeholder {
+  text-decoration: none;
 }
 
 .todo-list {
