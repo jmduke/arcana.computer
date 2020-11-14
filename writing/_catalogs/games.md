@@ -3,6 +3,13 @@ layout: catalog
 title: Games
 rss: /rss/games.xml
 image: /assets/img/share/games.png
+filters:
+  - id: all
+    label: All games
+    selector: .tabular-content-item
+  - id: favorites
+    label: Favorites
+    selector: .tabular-content-item[data-rating='10']
 ---
 
 I like to play video games! (I'm currently playing <strong>{{ site.data.currently[1]['name_(from_content)'] }}</strong>.)

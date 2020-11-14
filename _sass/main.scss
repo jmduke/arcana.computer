@@ -1,8 +1,11 @@
+
+@import "fonts";
+
 $background-color: #fcf9f4;
 $primary-color: #141e30;
 $medium-color: #141e3050;
 $soft-color: #edeae6;
-$accent-color: #ff0606;
+$accent-color: #dc0909;
 
 $font: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial,
   sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
@@ -65,6 +68,7 @@ code {
   display: flex;
   flex-direction: column;
   min-height: calc(100vh - 20px);
+  position: relative;
 }
 
 p,
@@ -117,35 +121,7 @@ h2 {
   font-weight: 800;
 }
 
-#sidenote-column-right,
-#sidenote-column-left {
-  height: 100%;
-  top: 50px;
-  position: absolute;
-  width: 200px;
-  right: calc(50% - $mobile-breakpoint + 50px);
-
-  p {
-    font-size: 14px;
-    opacity: 0.6;
-    line-height: 20px;
-  }
-
-  @media only screen and (max-width: $mobile-breakpoint) {
-    display: none;
-  }
-}
-
 a.footnote {
-  display: none;
-}
-
-[role="doc-endnotes"] {
-  display: none;
-}
-
-.sidenote-self-link,
-.reversefootnote {
   display: none;
 }
 
@@ -304,3 +280,4 @@ a.placeholder {
 @import "timeline";
 @import "subscription-widget";
 @import "lightbox";
+@import "littlefoot";

@@ -134,7 +134,6 @@ There are still a handful of things I'd like to do on this site. (If there's any
 
 I'm sure this list will balloon over time, like any good backlog. But I still love this site, and sincerely hope that you enjoy it as well.
 
-[^1]: I resent myself for using the noun "post" here, as I think that insinuates a lack of gravitas from which I'm
-trying to run away from.
+[^1]: I resent myself for using the noun "post" here, as I think that insinuates a lack of gravitas from which I'm trying to run away.
 
 [^2]: I can't remember the first place where I saw this notion: the most recent one, and the one that comes to mind most immediately, is on Will Larson's [guide for staff engineers](https://staffeng.com/guides).

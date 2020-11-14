@@ -1,6 +1,29 @@
 $timeline-left-column-size: 120px;
 $timeline-gutter-size: 10px;
 
+.timeline-filtering-widget {
+  background-color: $soft-color;
+  padding: 1em;
+  font-size: 14px;
+  border-radius: 5px;
+  display: flex;
+  width: calc(100 - 2em);
+
+  > div:last-child {
+    flex: 1;
+    text-align: right;
+  }
+
+  label {
+    input {
+      vertical-align: middle;
+      margin-top: 0;
+      margin-right: 3px;
+      margin-left: 10px;
+    }
+  }
+}
+
 .tabular-content-container {
   margin: auto;
   margin-left: $timeline-gutter-size;
@@ -17,6 +40,7 @@ $timeline-gutter-size: 10px;
   margin: auto;
   border-left: 2px solid $soft-color;
   padding: 0 0 50px 0px;
+  padding-top: $timeline-gutter-size;
   position: relative;
 
   @media (prefers-color-scheme: dark) {
@@ -30,7 +54,7 @@ $timeline-gutter-size: 10px;
   &:before {
     position: absolute;
     left: -9px;
-    top: 2px;
+    top: 2px + $timeline-gutter-size;
     content: " ";
     border: 0;
     border-radius: 500%;

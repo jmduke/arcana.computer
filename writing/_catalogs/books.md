@@ -3,6 +3,16 @@ layout: catalog
 title: Books
 rss: /rss/books.xml
 image: /assets/img/share/books.png
+filters:
+  - id: all
+    label: All books
+    selector: .tabular-content-item
+  - id: favorites
+    label: Favorites
+    selector: .tabular-content-item[data-rating='10']
+  - id: poetry
+    label: Poetry
+    selector: .tabular-content-item[data-genre='Poetry']
 ---
 
 I love to read! (I'm currently reading <strong>{{ site.data.currently[0]['name_(from_content)'] }}</strong> and listening to 
