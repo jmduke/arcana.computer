@@ -54,7 +54,15 @@ diet_records.each do |record|
 end
 write_records(diet_records, '_data/diet.json')
 
-write_records(collect_records('Dictionary'), '_data/words.json')
+dictionary_records = collect_records('Dictionary')
+dictionary_records.each do |record|
+  next unless record['content']
+
+  record['content'] = record['content'].map do |content_id|
+    content_id_to_data[content_id]
+  end
+end
+write_records(dictionary_records, '_data/words.json')
 write_records(collect_records('Veuve'), '_data/veuve.json')
 write_records(collect_records('Press'), '_data/press.json')
 write_records(collect_records('Currently'), '_data/currently.json')

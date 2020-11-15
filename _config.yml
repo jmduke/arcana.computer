@@ -21,6 +21,10 @@ collections:
         output: true
         permalink: /:collection/:name
 collections_dir: writing
+plugins:
+  - jekyll-toc
+toc:
+    min_level: 2
 description: "Arcana Dot Computer is a web site about engineering and personality by Justin Duke."
 social:
     twitter: "https://twitter.com/justinmduke"

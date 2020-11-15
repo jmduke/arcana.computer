@@ -5,7 +5,7 @@
     </div>
     <div>
         {% for filter in page.filters %}
-        <label for="{{ page.id }}">
+        <label for="{{ filter.id }}">
             <input type="radio" name="filter" id="{{ filter.id }}" {% if filter.id == "all" %}checked{% endif %}>
             {{ filter.label }}
         </label>
@@ -93,11 +93,11 @@
         <div class="tabular-content-header-colophon-item">
           Written by {{ item.author }}
         </div>
-        {% endif %} {% if item.source %}
+        {% endif %} {% if item.source or item.content %}
         <div class="tabular-content-header-colophon-item">
           {% if item.content %} Discovered via
-          <a href="/catalogs/books/#{{ item.source | slugify }}"
-            >{{ item.source }}</a
+          <a href="/catalogs/books/#{{ item.content[0].name | slugify }}"
+            >{{ item.content[0].name }}</a
           >
           {% else %} Discovered via {{ item.source }} {% endif %}
         </div>

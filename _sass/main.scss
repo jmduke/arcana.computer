@@ -5,7 +5,9 @@ $background-color: #fcf9f4;
 $primary-color: #141e30;
 $medium-color: #141e3050;
 $soft-color: #edeae6;
+$soft-color--dark-mode: #435575;
 $accent-color: #dc0909;
+$accent-color--dark-mode: #ff3b3b;
 
 $font: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial,
   sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
@@ -41,6 +43,9 @@ code {
 
 .logo {
   background: $accent-color;
+  @media (prefers-color-scheme: dark) {
+    background: $accent-color--dark-mode;
+  }
   display: inline-block;
   padding: 10px;
   color: $background-color;
@@ -89,14 +94,18 @@ li {
 blockquote {
   padding: 10px;
   margin-left: 0;
+  margin-right: 0;
   background-color: $soft-color;
+  @media (prefers-color-scheme: dark) {
+    background-color: $soft-color--dark-mode;
+  }
+
   border: 1px $medium-color solid;
   font-size: 14px;
   border-radius: 5px;
   margin-bottom: 2em;
   margin-top: 1em;
   display: flex;
-  width: calc(100% - 2em);
 
   p {
     margin: 0;
@@ -127,6 +136,9 @@ a.footnote {
 
 pre {
   background-color: $soft-color;
+  @media (prefers-color-scheme: dark) {
+    background-color: $soft-color--dark-mode;
+  }
   border: 1px $medium-color solid;
   padding: 1em;
   font-size: 16px;
@@ -150,7 +162,7 @@ pre {
   width: calc(100% - 2em);
 
   @media (prefers-color-scheme: dark) {
-    background-color: #ffffff50;
+    background-color: $soft-color--dark-mode;
   }
 
   > div {
@@ -162,9 +174,6 @@ pre {
       @media only screen and (max-width: $mobile-breakpoint) {
         text-align: left;
       }
-    }
-    a {
-      color: $accent-color !important;
     }
   }
 
@@ -181,6 +190,9 @@ pre {
 
 a {
   color: $accent-color !important;
+  @media (prefers-color-scheme: dark) {
+    color: $accent-color--dark-mode !important;
+  }
 }
 
 .index-row {
@@ -281,3 +293,4 @@ a.placeholder {
 @import "subscription-widget";
 @import "lightbox";
 @import "littlefoot";
+@import "toc";
