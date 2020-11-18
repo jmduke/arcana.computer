@@ -12,9 +12,7 @@ title: Home page
 
 Hello! <strong>arcana dot computer</strong> is a weblog from <strong>Justin Duke</strong>. (That's me.)
 
-I work at Stripe during the day and I run Buttondown and Spoonbill. I write about the technology industry, with
-specific emphases on building and growing projects. I am also prone to a whole lot of navel-gazing, as you are probably
-soon to discover.
+I work at <a href="https://stripe.com">Stripe</a> during the day and I run <a href="https://buttondown.email">Buttondown</a> and <a href="https://spoonbill.io">Spoonbill</a>. I also have a <a href="https://www.instagram.com/itstellybelly/">very nice Corgi puppy</a>, write a <a href="https://buttondown.email/letters-to-j">weekly newsletter with my friend Jasdev</a>, and mentor aspiring technologists in partnership with <a href="https://www.un-loop.org/">Unloop</a>. With what precious time remains, I generally am either playing video games, watching Miami sports, or writing for this web site.
 
 If you're
 interested in subscribing to monthly updates from this project, you should subscribe below or via the [omnibus RSS feed](/rss/omnibus.xml):
@@ -30,7 +28,7 @@ You're welcome to peruse them, of course!
 {% include content_pane.html c=site.industry title="Industry" %}
 {% include content_pane.html c=site.engineering title="Engineering" %}
 {% include content_pane.html c=site.products title="Products" %}
-{% include content_pane.html c=site.mortems title="Mortems" %}
+{% include content_pane.html c=site.mortems title="My Projects" %}
 {% include content_pane.html c=site.miscellany title="Miscellany" %}
 {% include content_pane.html c=site.catalogs title="Catalogs" %}
 </div>

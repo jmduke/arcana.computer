@@ -87,20 +87,46 @@ ol {
   font-size: 18px;
 }
 
+ol {
+  counter-reset: ol-counter;
+  list-style-type: none;
+  margin-left: 0;
+
+  li:before {
+    content: counter(ol-counter);
+    counter-increment: ol-counter;
+    margin-right: 1em;
+    background: $primary-color;
+    position: absolute;
+    color: #fff;
+    font-weight: 900;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    margin-left: -40px;
+    margin-top: -3px;
+    border-radius: 50%;
+    font-size: 16px;
+  }
+
+  li {
+    min-height: 30px;
+  }
+}
+
 li {
   margin-bottom: 10px;
 }
 
 blockquote {
-  padding: 10px;
+  padding: 20px;
   margin-left: 0;
   margin-right: 0;
   background-color: $soft-color;
   @media (prefers-color-scheme: dark) {
     background-color: $soft-color--dark-mode;
   }
-
-  border: 1px $medium-color solid;
   font-size: 14px;
   border-radius: 5px;
   margin-bottom: 2em;
@@ -119,6 +145,7 @@ blockquote {
     text-align: right;
     font-weight: 600;
     font-style: normal;
+    margin-top: 20px;
   }
 }
 
@@ -128,6 +155,15 @@ h1 {
 
 h2 {
   font-weight: 800;
+  margin-top: 4em;
+
+  &:first-of-type {
+    margin-top: 1em;
+  }
+}
+
+h3 {
+  margin-top: 3em;
 }
 
 a.footnote {
@@ -139,7 +175,6 @@ pre {
   @media (prefers-color-scheme: dark) {
     background-color: $soft-color--dark-mode;
   }
-  border: 1px $medium-color solid;
   padding: 1em;
   font-size: 16px;
   border-radius: 5px;
@@ -152,7 +187,6 @@ pre {
 
 .notice {
   background-color: $soft-color;
-  border: 1px $medium-color solid;
   padding: 1em;
   font-size: 14px;
   border-radius: 5px;
@@ -287,6 +321,41 @@ a.placeholder {
   text-align: center;
   flex-shrink: 0;
   padding-bottom: 2em;
+}
+
+table { 
+  width: 100%;
+  border-collapse: collapse;
+  border-radius: 5px;
+  font-size: 14px;
+}
+th {
+  background: $medium-color;
+  text-align: left;
+  padding: 10px;
+}
+th:first-of-type {
+  border-top-left-radius: 5px;
+}
+tr:first-child td {
+  padding-top: 10px;
+}
+td {
+  padding-left: 10px;
+  padding-right: 10px;
+  background: $soft-color;
+}
+th:last-of-type {
+  border-top-right-radius: 5px;
+}
+tr:last-child td {
+  padding-bottom: 10px;
+}
+tr:last-of-type td:first-of-type {
+  border-bottom-left-radius: 5px;
+}
+tr:last-of-type td:last-of-type {
+  border-bottom-right-radius: 5px;
 }
 
 @import "timeline";

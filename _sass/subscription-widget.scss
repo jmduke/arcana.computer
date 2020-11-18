@@ -30,6 +30,7 @@
     box-sizing: border-box;
     cursor: pointer;
     text-align: center;
+    margin-right: 0;
 
     &[disabled] {
       display: none;

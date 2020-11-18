@@ -4,6 +4,7 @@ layout: page
 updated: November 14th, 2020
 image: /assets/img/share/this-site.png
 toc: true
+end_cta: true
 ---
 
 <style>
@@ -33,6 +34,11 @@ Anyway, I'm getting off track. [^5] I want to do a better job of writing things 
 
 ### Goals
 
+1. **Fast**. I want this site to be fast to load. "Page speed" is an obvious benefit in of itself, and it seems almost trivial to argue that static sites should be quick to the touch. There are parts of this site — for example, my catalogs, which aggressive pull in thousands of words and hundreds of images — that don't quite meet this bar, but simple pages such as this one do.
+2. **Accessible**. Both as an end of itself and a means to progress my abilities as an a11y-first developer, this site should be as accessible as possible. At the time of this writing, it scores a 92/100 on Lighthouse, with the remaining eight points coming from my lighthouse plugin. (If you know of any areas where I can improve accessibility, please [email me](mailto:me@jmduke.com) and let me know!)
+3. **Durable**. I want a site that I can work on in form and content and spirit for the next twenty years. I am sure it will go through redesigns and reconceptualizations and reworks and all of that — I am not foolish enough to think that this site will ever be "finished" — but I want the soul of it to be as constant as possible.
+4. **Genuine**. It seems silly to talk about being genuine right after throwing a phrase like "the soul of [this site]" at you, but if you know me in real life you know that I am _exactly_ that level of grandoise/idiotic. So, yeah — I want this site to sound as aggressively like me as possible. There are [great sites](julian.com) that strive for an authorial voice; I am uninterested in that ambition.
+
 ### Etymology
 
 Why is this site called "arcana dot computer"? That is a somewhat odd name.
@@ -45,10 +51,13 @@ I am a sucker for this genre of page. I think it is really fun to read through h
 blogging technologists (and yes, I am cringing at my employment of that term) approach building
 their software. Some particular entries I enjoy:
 
-- [Gwern](https://www.gwern.net/About)
-- [Paul Stamatiou](https://paulstamatiou.com/about-this-website/)
-- [Jonnie Hallman](https://destroytoday.com/)
-- [Aaron Z. Lewis](https://aaronzlewis.com/)
+| Person | Site |
+|-------|--------|
+| Gwern | https://www.gwern.net/About |
+| Paul Stamatiou | https://paulstamatiou.com/about-this-website/ |
+| Jonnie Hallman | https://destroytoday.com/ |
+| Aaron Z. Lewis | https://aaronzlewis.com |
+| Julian Shapiro | https://www.julian.com/blog |
 
 [^1]: The concept of a "content diet" is one I stole from Steven Soderbergh; I've found it surprisingly useful and clarifying.
 
@@ -70,15 +79,16 @@ content by order of creation is silly and a legacy of blogging software being a 
 
 ## Implementation
 
-At a high level, this site is:
+At a high level, this site is powered by the following things:
 
-- built with HTML/SCSS/JS,
-- rendered on top of Jekyll, 
-- powered by data in Airtable,
-- stored in Git,
-- hosted on GitHub,
-- deployed via Netlify,
-- with subscriptions powered on Buttondown.
+| Technology | Use |
+|-------|--------|
+| HTML/SCSS/JS | Design & implementation |
+| Jekyll | Static site generation |
+| Airtable | Storing structured data |
+| Git & GitHub | Storing content |
+| Netlify | Deploys |
+| Buttondown | Newsletter subscriptions |
 
 It's also [entirely open-source](https://github.com/jmduke/arcana.computer).
 
@@ -129,7 +139,7 @@ open-source at some point. The Ruby is, as you'll no doubt discover, somewhat me
 2. Denormalize it.
 3. Serialize it and write it to disk.
 
-The result is pretty nice; ever time I deploy the site, it automatically pulls all the latest data from Airtable.
+The result is pretty nice; every time I deploy the site, it automatically pulls all the latest data from Airtable.
 
 ### Jekyll
 
@@ -177,6 +187,14 @@ The administrative story — making it easier for me to edit my writing away fro
 - [Avery Vine](https://www.averyvine.com/blog/programming/2019/10/04/publishing-to-jekyll-from-ipad-with-shortcuts-and-working-copy)
 
 I might try and copy their tactics, but they feel — at first glance — like a way to do a thing and say that it’s been done, rather than the optimal solution to the problem. I think over the next few years the process of publishing on an iPad will get much better, and I’m happy to punt on the problem for now.
+
+### Zapier
+
+<img src="/assets/img/zapier.png">
+
+As an unnecessary extravagance, I use Zapier to deploy this site once every day. This isn't strictly necessary, but I go fairly often updating the backing Airtable data (e.g. cataloging a new movie or book) without actually changing the _content_ of the site itself in Git, and thus need a way to tell the site to recompile without having to go through the arduous manual labor of clicking a button in the Netlify UI. 
+
+(I am aware that this is something that could absolutely be solved with cron, and there's no reason for me to use Zapier over a tool that I can actually own myself.)
 
 ### Buttondown
 

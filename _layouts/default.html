@@ -47,6 +47,14 @@
 
       <div class="content">
       {{ content | toc }}
+
+      {% if page.end_cta %}
+        <div class="notice" style="flex-direction: column">
+          <strong>Follow my writing:</strong>
+          <br />
+          {% include subscription-widget.html %}
+        </div>
+      {% endif %}
       </div>
 
       <div class="footer">
