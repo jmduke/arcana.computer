@@ -3,6 +3,7 @@ title: About this site
 layout: page
 updated: November 14th, 2020
 image: /assets/img/share/this-site.png
+excerpt: Why and how I built a comically overwrought and hopelessly oslipsistic personal site.
 toc: true
 end_cta: true
 ---
@@ -41,9 +42,9 @@ Anyway, I'm getting off track. [^5] I want to do a better job of writing things 
 
 ### Etymology
 
-Why is this site called "arcana dot computer"? That is a somewhat odd name.
+Why is this site called "arcana dot computer", you ask? That is a somewhat odd name! Why wouldn't you just do firstnamelastname.com, and dispense with all this weird "naming your personal website" nonsense?
 
-Honestly, there's no good reason. I have a bad habit of buying silly domain names and this was one of them.
+Honestly, there's no good reason. I have a bad habit of buying silly domain names and this was one of them. In a prior life, I [wrote a newsletter](https://newsletter.jmduke.com) called Minor Arcana; the word "arcana" has always felt a little fun and incongruous to me, perhaps indicative of my slightly askew relationship with technology. [^7]
 
 ### Prior art
 
@@ -51,13 +52,14 @@ I am a sucker for this genre of page. I think it is really fun to read through h
 blogging technologists (and yes, I am cringing at my employment of that term) approach building
 their software. Some particular entries I enjoy:
 
-| Person | Site |
+| Writer | Reason |
 |-------|--------|
-| Gwern | https://www.gwern.net/About |
-| Paul Stamatiou | https://paulstamatiou.com/about-this-website/ |
-| Jonnie Hallman | https://destroytoday.com/ |
-| Aaron Z. Lewis | https://aaronzlewis.com |
-| Julian Shapiro | https://www.julian.com/blog |
+| [Aaron Z. Lewis](https://aaronzlewis.com) | Emphasis on multimedia |
+| [Andy Matuschak](https://notes.andymatuschak.org/About_these_notes) | Built primarily for the author |
+| [Gwern](https://www.gwern.net/About) | Wonderful design; obsessive level of depth |
+| [Jonnie Hallman](https://destroytoday.com) | Tone & cleanliness |
+| [Julian Shapiro](https://www.julian.com/blog) | Commitment to evergreen content |
+| [Paul Stamatiou](https://paulstamatiou.com/about-this-website) | Nice use of affordances |
 
 [^1]: The concept of a "content diet" is one I stole from Steven Soderbergh; I've found it surprisingly useful and clarifying.
 
@@ -84,11 +86,12 @@ At a high level, this site is powered by the following things:
 | Technology | Use |
 |-------|--------|
 | HTML/SCSS/JS | Design & implementation |
-| Jekyll | Static site generation |
-| Airtable | Storing structured data |
-| Git & GitHub | Storing content |
-| Netlify | Deploys |
-| Buttondown | Newsletter subscriptions |
+| [Jekyll](#jekyll) | Static site generation |
+| [Airtable](#airtable) | Storing structured data |
+| [Git & GitHub](#git) | Storing content |
+| [Netlify](#netlify) | Deployments and online editing |
+| [Zapier](#zapier) | Periodic deploys |
+| [Buttondown](#buttondown) | Newsletter subscriptions |
 
 It's also [entirely open-source](https://github.com/jmduke/arcana.computer).
 
@@ -106,23 +109,22 @@ and at some point I might substitute it for something else. IBM Plex Mono doesn'
 
 ### Airtable
 
-> Part spreadsheet, part database, and entirely flexible, teams use Airtable to organize their work, their way.
+> Part spreadsheet, part database, and entirely flexible, teams use Airtable to organize their work, their way. [Airtable's slightly less generic marketing site](https://airtable.com/)
 
 <div class="images">
-  <img src="/assets/img/airtable.png">
-  <img src="/assets/img/airtable2.png">
-  <img src="/assets/img/airtable3.png">
+  <img src="/assets/img/airtable.png" alt="A screenshot of my 'Content catalog' in Airtable">
+  <img src="/assets/img/airtable2.png" alt="A screenshot of my 'Press list' in Airtable">
+  <img src="/assets/img/airtable3.png" alt="A screenshot of my 'Media diet' in Airtable">
 </div>
 
 Airtable is a SaaS for interacting with structured tabular data. If you’ve got a long memory, you can think of it as “Microsoft Access for millennials.”
 
 I really like Airtable. I use it to store a lot of data, mostly around content consumption:
 
-1. The books, movies, and games I’ve consumed or plan on consuming, alongside metadata and my reviews/thoughts
-2. My [media diet](http://127.0.0.1:4000/catalogs/media-diet) for each day for the past four years
-3. A notebook of quotes and highlights that I’ve collected
-4. A dictionary of words that I’ve learned
-5. What I’m currently playing, reading, and listening to
+1. The [books](/catalogs/books), movies, and games I’ve consumed or plan on consuming, alongside metadata and my reviews/thoughts
+2. My [media diet](/catalogs/media-diet) for each day for the past four years
+3. A [notebook of quotes and highlights](/catalogs/quotes) that I’ve collected
+4. A [dictionary of words that I’ve learned](/catalogs/words)
 
 In general, if something I’m cataloging can or should be tied back to the content in which I encountered it, I’ll put it in Airtable.
 
@@ -143,7 +145,7 @@ The result is pretty nice; every time I deploy the site, it automatically pulls 
 
 ### Jekyll
 
-> Jekyll is a static site generator. It takes text written in your favorite markup language and uses layouts to create a static website. You can tweak the site’s look and feel, URLs, the data displayed on the page, and more. [Jekyll Docs](https://jekyllrb.com/docs/)
+> Jekyll is a static site generator. It takes text written in your favorite markup language and uses layouts to create a static website. You can tweak the site’s look and feel, URLs, the data displayed on the page, and more. [Jekyll documentation](https://jekyllrb.com/docs/)
 
 I use Jekyll to compile this site. Jekyll is, at least in my zeitgeist, _the_ Platonic ideal of a static site generator: it is not perfect, but it is by far the most popular and most-discussed (a fact largely due to its longevity).
 
@@ -165,8 +167,8 @@ this site, as well. They are all pretty uninteresting and self-explanatory.
 > Perfect for anything from the simplest landing page to full-scale, feature-rich web applications, Netlify is a whole new global platform where modern frontend tools, microservices, and serverless architecture are all first-class citizens. Start deploying your websites with a modern workflow that's both productive and fun. [Netlify's boring marketing page](https://www.netlify.com/products/workflow/)
 
 <div class="images">
-  <img src="/assets/img/netlify1.png">
-  <img src="/assets/img/netlify2.png">
+  <img src="/assets/img/netlify1.png" alt="A screenshot of Netlify. It's boring.">
+  <img src="/assets/img/netlify2.png" alt="A second screenshot of Netlify. It's still boring.">
 </div>
 
 Netlify is a platform for deploying and extending static sites like this one.
@@ -180,17 +182,11 @@ There is exactly one thing I don’t like about Netlify, and that is the fact th
 
 Longer term, I think it’s fairly easy to break free of the two advantages Netlify provides. The “easy deploys” bit is a nicety that is easily replicable with some time mucking around with my own git server and either an S3 or bespoke storage hook.
 
-The administrative story — making it easier for me to edit my writing away from my iPad — is a little trickier. There are some bits of prior art here. A number of authors have duct-taped a solution together with Shortcuts and Working Copy:
-
-- [Arthur Lorotte de Banes](https://sysless.com/updating-jekyll-blog-from-ipad/);
-- [Josh Ginter](https://thesweetsetup.com/a-ulysses-shortcuts-and-working-copy-workflow-for-capturing-ideas-and-publishing-to-a-jekyll-based-blog/);
-- [Avery Vine](https://www.averyvine.com/blog/programming/2019/10/04/publishing-to-jekyll-from-ipad-with-shortcuts-and-working-copy)
-
-I might try and copy their tactics, but they feel — at first glance — like a way to do a thing and say that it’s been done, rather than the optimal solution to the problem. I think over the next few years the process of publishing on an iPad will get much better, and I’m happy to punt on the problem for now.
+The administrative story — making it easier for me to edit my writing away from my iPad — is a little trickier. There are some bits of prior art here. A number of authors have duct-taped a solution together with Shortcuts and Working Copy, like [Arthur Lorotte de Banes](https://sysless.com/updating-jekyll-blog-from-ipad/) or [Josh Ginter](https://thesweetsetup.com/a-ulysses-shortcuts-and-working-copy-workflow-for-capturing-ideas-and-publishing-to-a-jekyll-based-blog/) or [Avery Vine](https://www.averyvine.com/blog/programming/2019/10/04/publishing-to-jekyll-from-ipad-with-shortcuts-and-working-copy). At some point, I might try and copy their tactics, but they feel — at first glance — like a way to do a thing and say that it’s been done, rather than the optimal solution to the problem. I think over the next few years the process of publishing on an iPad will get much better, and I’m happy to punt on the problem for now.
 
 ### Zapier
 
-<img src="/assets/img/zapier.png">
+<img src="/assets/img/zapier.png" alt="A screenshot of Zapier">
 
 As an unnecessary extravagance, I use Zapier to deploy this site once every day. This isn't strictly necessary, but I go fairly often updating the backing Airtable data (e.g. cataloging a new movie or book) without actually changing the _content_ of the site itself in Git, and thus need a way to tell the site to recompile without having to go through the arduous manual labor of clicking a button in the Netlify UI. 
 
@@ -200,16 +196,27 @@ As an unnecessary extravagance, I use Zapier to deploy this site once every day.
 
 _Obviously_, I use [Buttondown](http://buttondown.email/) to handle newsletter subscriptions for this site. You can read more about Buttondown [here](/mortems/buttondown).
 
+### Git & GitHub
+
+Do I really need to write about why I chose Git? Are you expecting me to be, like, "well, I _considered_ Subversion, but the changeset model really doesn't jive with my editing and publishing process?" 
+
+Git was the default choice. I wanted to be able to store this information somewhere that wasn't my rusty Mac Mini and I wanted to be able to publish at a regular cadence. 
+
+The site, as mentioned above, is [open source](https://github.com/jmduke/arcana.computer) and will be for the interminable future. The commit log reflects my own rambunctious use of version control in trivial projects, which is equivalent to that of blindly smashing the Save button every few hours. There's a world in which I am reasonable and diligent and work on new posts in feature branches and merge them in once they are completed; I don't see that world merging with our own, both for reasons delineated above in terms of "drafting in public" and also the much less interesting reason of my own overwhelming sloth.
+
 ### Special sauce
 
 Most of my usage of Jekyll is fairly boring: boring is good! I do a handful of weird things to try
 and make the site sparkle, though:
 
-- [a JavaScript oneliner](https://github.com/jmduke/arcana.computer/blob/master/assets/js/normalize_catalog_heights.js) to better compress the timeline elements in [catalog pages](/catalog/books).
-- the [sample filter](https://jekyllrb.com/docs/liquid/filters/) and [a list of admittedly hackneyed niceties](https://github.com/jmduke/arcana.computer/blob/master/_data/footers.yaml) to dynamically generate footers.
-- [A slight tweak of littlefoot.js](https://github.com/jmduke/arcana.computer/blob/master/assets/js/sidenotes.js) to handle pop-up endnotes [^6]
-- some cutting edge ES6 to handle [AJAX newsletter subscriptions](https://github.com/jmduke/arcana.computer/blob/master/assets/js/newsletter.js) 
-- Some even _more_ cutting-edge ES6 to [handle lightboxes for images](https://github.com/jmduke/arcana.computer/blob/master/assets/js/lightbox.js)
+| File | Description |
+|-------|--------|
+| [`normalize_catalog_heights.js`](https://github.com/jmduke/arcana.computer/blob/master/assets/js/normalize_catalog_heights.js) | layout of timeline elements in [catalog pages](/catalog/books) |
+| [`footers.yaml`](https://github.com/jmduke/arcana.computer/blob/master/_data/footers.yaml) | used in conjunction with the [sample filter](https://jekyllrb.com/docs/liquid/filters/) to dynamically generate footers for each page |
+| [`sidenotes.js`](https://github.com/jmduke/arcana.computer/blob/master/assets/js/sidenotes.js) | handling of pop-up endnotes [^6] |
+| [`newsletter.js`](https://github.com/jmduke/arcana.computer/blob/master/assets/js/newsletter.js) | AJAX newsletter subscriptions |
+| [`lightbox.js`](https://github.com/jmduke/arcana.computer/blob/master/assets/js/lightbox.js) | very lightweight lightboxes for images |
+| [`airtable_sync.rb`](https://github.com/jmduke/arcana.computer/blob/master/_plugins/airtable_sync.rb) | Pulling data from Airtable during compilation |
 
 ### What's left
 
@@ -221,6 +228,14 @@ There are still a handful of things I'd like to do on this site. (If there's any
 
 I'm sure this list will balloon over time, like any good backlog. But I still love this site, and sincerely hope that you enjoy it as well.
 
+## Coda
+
+I sincerely hope you enjoyed this solipsistic lens into the site. If you've got any questions,
+please [email me](mailto:me@jmduke.com); I'm always happy to talk shop. 
+
+Lastly, if there's anything I can convince you of: you should build a personal site, you should obsess over it, you should meticulously document it, and you should have quite a bit of fun doing so. (It's worth it.)
+
+
 [^1]: I resent myself for using the noun "post" here, as I think that insinuates a lack of gravitas from which I'm trying to run away.
 
 [^2]: I can't remember the first place where I saw this notion: the most recent one, and the one that comes to mind most immediately, is on Will Larson's [guide for staff engineers](https://staffeng.com/guides).
@@ -230,3 +245,5 @@ I'm sure this list will balloon over time, like any good backlog. But I still lo
 [^5]: And for what it's worth, I still listen to podcasts. Well, podcast. [Zach Lowe](https://twitter.com/zachlowe_nba) and [Dan Carlin](https://www.dancarlin.com/) are very good.
 
 [^6]: Like this one!
+
+[^7]: There is no more inspirational piece of programming writing to me than [Hexing the technical interview](https://aphyr.com/posts/341-hexing-the-technical-interview).

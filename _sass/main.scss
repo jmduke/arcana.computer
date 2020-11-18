@@ -337,19 +337,17 @@ th {
 th:first-of-type {
   border-top-left-radius: 5px;
 }
-tr:first-child td {
-  padding-top: 10px;
-}
 td {
+  padding: 5px;
   padding-left: 10px;
   padding-right: 10px;
   background: $soft-color;
 }
+tr:nth-child(2n) td {
+  background: #141e3020;
+}
 th:last-of-type {
   border-top-right-radius: 5px;
-}
-tr:last-child td {
-  padding-bottom: 10px;
 }
 tr:last-of-type td:first-of-type {
   border-bottom-left-radius: 5px;
