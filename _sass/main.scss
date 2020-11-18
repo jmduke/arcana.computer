@@ -4,10 +4,12 @@
 $background-color: #fcf9f4;
 $primary-color: #141e30;
 $medium-color: #141e3050;
+$secondary-medium-color: #141e3050;
+$secondary-medium-color--dark-mode: #54698f;
 $soft-color: #edeae6;
 $soft-color--dark-mode: #435575;
 $accent-color: #dc0909;
-$accent-color--dark-mode: #ff3b3b;
+$accent-color--dark-mode: #ff8f8f;
 
 $font: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial,
   sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
@@ -25,6 +27,7 @@ body {
   @media (prefers-color-scheme: dark) {
     color: $background-color;
     background: $primary-color;
+    border-top: 3px solid $accent-color--dark-mode;
   }
 }
 
@@ -98,7 +101,7 @@ ol {
     margin-right: 1em;
     background: $primary-color;
     position: absolute;
-    color: #fff;
+    color: $background-color;
     font-weight: 900;
     width: 30px;
     height: 30px;
@@ -108,6 +111,11 @@ ol {
     margin-top: -3px;
     border-radius: 50%;
     font-size: 16px;
+    
+    @media (prefers-color-scheme: dark) {
+      background: $background-color;
+      color: $primary-color;
+    }
   }
 
   li {
@@ -331,6 +339,10 @@ table {
 }
 th {
   background: $medium-color;
+  @media (prefers-color-scheme: dark) {
+    background-color: $soft-color--dark-mode !important;
+    color: $soft-color;
+  }
   text-align: left;
   padding: 10px;
 }
@@ -342,9 +354,17 @@ td {
   padding-left: 10px;
   padding-right: 10px;
   background: $soft-color;
+  @media (prefers-color-scheme: dark) {
+    background-color: $soft-color--dark-mode !important;
+    color: $soft-color;
+  }
 }
 tr:nth-child(2n) td {
-  background: #141e3020;
+  background: $secondary-medium-color;
+  @media (prefers-color-scheme: dark) {
+    background-color: $secondary-medium-color--dark-mode !important;
+    color: $soft-color !important;
+  }
 }
 th:last-of-type {
   border-top-right-radius: 5px;
