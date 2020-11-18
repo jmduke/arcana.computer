@@ -17,6 +17,7 @@
   }
 
   input[type="submit"] {
+    -webkit-appearance: none;
     display: block;
     width: 150px;
     background: $accent-color;
