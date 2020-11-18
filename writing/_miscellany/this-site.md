@@ -92,6 +92,7 @@ At a high level, this site is powered by the following things:
 | [Netlify](#netlify) | Deployments and online editing |
 | [Zapier](#zapier) | Periodic deploys |
 | [Buttondown](#buttondown) | Newsletter subscriptions |
+| [Fathom](#fathom) | Lightweight analytics |
 
 It's also [entirely open-source](https://github.com/jmduke/arcana.computer).
 
@@ -203,6 +204,17 @@ Do I really need to write about why I chose Git? Are you expecting me to be, lik
 Git was the default choice. I wanted to be able to store this information somewhere that wasn't my rusty Mac Mini and I wanted to be able to publish at a regular cadence. 
 
 The site, as mentioned above, is [open source](https://github.com/jmduke/arcana.computer) and will be for the interminable future. The commit log reflects my own rambunctious use of version control in trivial projects, which is equivalent to that of blindly smashing the Save button every few hours. There's a world in which I am reasonable and diligent and work on new posts in feature branches and merge them in once they are completed; I don't see that world merging with our own, both for reasons delineated above in terms of "drafting in public" and also the much less interesting reason of my own overwhelming sloth.
+
+### Fathom
+
+> Fathom is a simple, light-weight, privacy-first alternative to Google Analytics. So, stop scrolling through pages of reports and collecting gobs of personal data about your visitors, both of which you probably don’t need. Our website stats show up on a single, blazingly fast dashboard so you can make business decisions quickly. [Fathom's rather well-designed marketing page](https://usefathom.com)
+
+<img src="/assets/img/fathom.png" alt="A screenshot of Fathom">
+
+The pull quote says it all, right? I am a nosy, metrics-loving simpleton at heart and I want to see how popular this site gets. I am also not a fan of Google Analytics; there are all of the boring and valid privacy considerations, sure, but also the interface is incredibly annoying to use and more than anything else I just want a scalar that tells me how many uniques I'm getting. Fathom does that very well; I originally discovered it as the analytics engine that powers Buttondown.
+
+(There is also [Simple Analytics](https://simpleanalytics.com/), which has a nigh-identical value proposition and boasts a bevy of testimonials from folks who I generally trust. At some point it might be fun to tinker around with it, but I literally cannot think of a single reason why to switch over at this point.)
+
 
 ### Special sauce
 
