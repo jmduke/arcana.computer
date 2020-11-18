@@ -211,7 +211,7 @@ and make the site sparkle, though:
 
 | File | Description |
 |-------|--------|
-| [`normalize_catalog_heights.js`](https://github.com/jmduke/arcana.computer/blob/master/assets/js/normalize_catalog_heights.js) | layout of timeline elements in [catalog pages](/catalog/books) |
+| [`normalize_catalog_heights.js`](https://github.com/jmduke/arcana.computer/blob/master/assets/js/normalize_catalog_heights.js) | layout of timeline elements in [catalog pages](/catalogs/books) |
 | [`footers.yaml`](https://github.com/jmduke/arcana.computer/blob/master/_data/footers.yaml) | used in conjunction with the [sample filter](https://jekyllrb.com/docs/liquid/filters/) to dynamically generate footers for each page |
 | [`sidenotes.js`](https://github.com/jmduke/arcana.computer/blob/master/assets/js/sidenotes.js) | handling of pop-up endnotes [^6] |
 | [`newsletter.js`](https://github.com/jmduke/arcana.computer/blob/master/assets/js/newsletter.js) | AJAX newsletter subscriptions |
