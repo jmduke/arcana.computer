@@ -23,6 +23,7 @@ collections:
 collections_dir: writing
 plugins:
   - jekyll-toc
+  - jekyll-last-modified-at
 toc:
     min_level: 2
 description: "Arcana Dot Computer is a web site about engineering and personality by Justin Duke."
