@@ -44,6 +44,9 @@ Instead, take the time and do _linear backoff_: only allow yourself to allocate 
 
 ## Employ read-only and write-only modes
 
+> The knowledge sector’s insistence that productivity is a personal issue seems to have created a so-called “tragedy of the commons” scenario, in which individuals making reasonable decisions for themselves insure a negative group outcome. An office worker’s life is dramatically easier, in the moment, if she can send messages that demand immediate responses from her colleagues, or disseminate requests and tasks to others in an ad-hoc manner. But the cumulative effect of such constant, unstructured communication is cognitively harmful: on the receiving end, the deluge of information and demands makes work unmanageable. There’s little that any one individual can do to fix the problem. A worker might send fewer e-mail requests to others, and become more structured about her work, but she’ll still receive requests from everyone else; meanwhile, if she decides to decrease the amount of time that she spends engaging with this harried digital din, she slows down other people’s work, creating frustration.
+> [Cal Newport, The Rise and Fall of Getting Things Done](https://www.newyorker.com/tech/annals-of-technology/the-rise-and-fall-of-getting-things-done)
+
 A failure mode I often run into is that I treat my todo list like a stack (first on, first off) rather than a queue (first on, last off.)
 
 This is common. A coworker asks you a quick question and you want to get back to them immediately; a customer emails and you want to impress them by responding in less than five minutes. You assign yourself things that pop up: “Oh, I need to check the mail;” “Oh, I should see how the metric is doing;” “Oh, I need to talk to that team about their revised timeline for the project.”

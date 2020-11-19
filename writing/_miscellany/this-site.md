@@ -245,6 +245,16 @@ I'm sure this list will balloon over time, like any good backlog. But I still lo
 I sincerely hope you enjoyed this solipsistic lens into the site. If you've got any questions,
 please [email me](mailto:me@jmduke.com); I'm always happy to talk shop. 
 
+I'd like to give thanks to the following folks (and if you're not on this list and should be, let me know):
+
+| Person | Reason for gratitude |
+|---|----|
+| Brian Lovin | [Fixing a broken link](https://github.com/jmduke/arcana.computer/pull/1) |
+| Andrew Healey | [Fixing a broken link](https://github.com/jmduke/arcana.computer/pull/2) |
+| Jason Li | Pointing out dark mode issues |
+| Philip C. Davis | Pointing out dark mode issues |
+| Altay Demir | Pointing out dark mode issues |
+
 Lastly, if there's anything I can convince you of: you should build a personal site, you should obsess over it, you should meticulously document it, and you should have quite a bit of fun doing so. (It's worth it.)
 
 
