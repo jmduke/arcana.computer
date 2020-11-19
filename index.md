@@ -20,7 +20,7 @@ interested in subscribing to monthly updates from this project, you should subsc
 {% include subscription-widget.html %}
 
 Alternatively, you can jump right into some writing.
-This domain is an ongoing work: links below that are stricken through are drafts, and unclickable links
+This domain is an ongoing work: links below that are slightly faded are drafts, and unclickable links
 are placeholders for future content.
 You're welcome to peruse them, of course!
 
