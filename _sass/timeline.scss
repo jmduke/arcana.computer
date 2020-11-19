@@ -9,6 +9,10 @@ $timeline-gutter-size: 10px;
   display: flex;
   width: calc(100 - 2em);
 
+  @media (prefers-color-scheme: dark) {
+    background-color: $soft-color--dark-mode;
+  }
+
   > div:last-child {
     flex: 1;
     text-align: right;
@@ -44,7 +48,7 @@ $timeline-gutter-size: 10px;
   position: relative;
 
   @media (prefers-color-scheme: dark) {
-    border-left-color: #ffffff50;
+    border-left-color: $soft-color--dark-mode;
   }
 
   &:last-child {
@@ -63,7 +67,7 @@ $timeline-gutter-size: 10px;
     width: 15px;
 
     @media (prefers-color-scheme: dark) {
-      background: #ffffff50;
+      background: $soft-color--dark-mode;
     }
   }
 
