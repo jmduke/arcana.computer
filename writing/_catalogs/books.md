@@ -27,5 +27,7 @@ of how good I think a book is. "Good" is relative and intentionally squishy; I w
 Additionally, since late 2019 I've been trying to write up my thoughts on books after I complete them, as an
 exercise in switching from consumptive energies to productive ones.
 
+(Also, be warned: **my writeups will probably contain spoilers.**)
+
 {% assign sorted = site.data.content | sort: 'date' | reverse | where_exp:"item", "item.type == 'Book' and item.rating" %}
 {% include timeline.html content=sorted %}

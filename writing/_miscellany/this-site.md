@@ -40,6 +40,12 @@ Anyway, I'm getting off track. [^5] I want to do a better job of writing things 
 3. **Durable**. I want a site that I can work on in form and content and spirit for the next twenty years. I am sure it will go through redesigns and reconceptualizations and reworks and all of that — I am not foolish enough to think that this site will ever be "finished" — but I want the soul of it to be as constant as possible.
 4. **Genuine**. It seems silly to talk about being genuine right after throwing a phrase like "the soul of [this site]" at you, but if you know me in real life you know that I am _exactly_ that level of grandoise/idiotic. So, yeah — I want this site to sound as aggressively like me as possible. There are [great sites](https://julian.com) that strive for an authorial voice; I am uninterested in that ambition.
 
+These are goals _for_ the site, but not exactly goals for myself in building it: sure, building something that is quick, durable, honest, and accessible is meritous in of itself, but anyone who has built and rebuilt their own static site knows that most of the fun is in the journey, rather than the destination. A [reader](https://svbn.me/blog/prutsen/) recently informed me of the Dutch word _prutsen_:
+
+> We have a favourite foreign word. And while we love hygge, it’s actually prutsen. It translates loosely to doing something of very little significance that only looks like work. Only to us, it’s quite significant – not the kind of significance that changes the world, but the kind that changes ours (and hopefully yours) and how we feel in it. It’s a surprisingly useful way to clear our heads. Little bits of rearranging, picking up wild pieces on dog walks and putting them in vases or bowls, prutsen the details because it makes our hearts warm and gets our creative juices flowing. [Do Inhabit](https://thedobook.co/products/do-inhabit-style-your-space-for-a-creative-and-considered-life)
+
+I have spent a lot of time bemoaning the fact that I may spend more time in a given year _building_ my site than actually populating it with content. One goal for myself is to treat this site as both a surrender and an antidote to that notion: that the joy of building the site is not something to feel guilty over, and that I should build it in a way to enhance how fun it can be to spend a quiet Thursday evening messing with Liquid filters.
+
 ### Etymology
 
 Why is this site called "arcana dot computer", you ask? That is a somewhat odd name! Why wouldn't you just do firstnamelastname.com, and dispense with all this weird "naming your personal website" nonsense?
@@ -77,7 +83,16 @@ This accomplishes two things that are important to me:
 content by order of creation is silly and a legacy of blogging software being a CRUD database; this is not Twitter, and I want this writing to be long-form and long-lasting.
 2. It reminds me of what is left to be written about. I don't know if this site will ever be meaningfully "finished" (I suspect it will not), but being able to glance at the index page and remember that I have a whole bunch of writing about prior projects that I haven't done yet is a useful symptom in of itself.
 
+### Catalogs
 
+You know, for all the flak that we levy at the concept of "timelines", I think they are fairly useful and illustrative. The part of this site that I've spent the most time on are my various catalogs: I've cataloged the books I've read, the games I've played, the movies I've watched, and so on and so forth. 
+
+There is a lot of interesting writing about spaced repetition to better recall your past. I am not super interested in that: you will not find me hunched over a bunch of Anki cards of quotes that I read in a random book 2016 so as to get my mental juices flowing or whatever. But I think there is merit in two things:
+
+1. Being able to idly scroll back to 2017 and look at all of the things you were reading and consuming and playing as a means of time travel, in much the same way it is fun to pass a city block five years after you moved away from the neighborhood
+2. Forcing yourself to _digest_ what you just spent twenty hours playing or two hours watching or whatever. [^8]
+
+Additionally, being diligent about trying to keep these consumptive catalogs has — even in just a year's time — yielded some substantive effects. I've "learned" (or at least externalized my learning of) over a hundred new words, and I've written (at the time of this writing) <strong>sixty thousand words</strong> about the books, movies, and games I've spent my time with.
 
 ## Implementation
 
@@ -99,6 +114,8 @@ It's also [entirely open-source](https://github.com/jmduke/arcana.computer).
 ### Design
 
 Honestly, I don't think there's that much to say about the design of this site. I think it is fairly boring; if I were to describe the general philosophy behind it, I would say "use as little CSS as possible and make it as likely as possible that this site is renderable and pleasant in the year 2040." I don't know if I succeeded — I certainly have had those lofty goals in the past, and fallen desparately short — but I'd like to think that I came closer to the mark than usual, with around [500 total lines of CSS](https://github.com/jmduke/arcana.computer/blob/master/_sass/main.scss).
+
+A brief sidebar on dark mode, by the way: when first building out this site, I had _no idea_ how many people actually used dark mode. I recognize that it's a fact of life that many people ostensibly enjoy, but it exists as a massive testing blind spot. Thankfully, SCSS makes it easy to tweak color palettes, but apologies if anything looks particularly wonky on dark mode: I am happy to fix it but I offer no promises about it not happening again in the future.
 
 ### Fonts
 
@@ -161,7 +178,12 @@ Jekyll is good and I would recommend using it. It has drawbacks: it is somewhat 
 But it is popular — it is very rare to find yourself to be the first person to try and do something with Jekyll, which is a very large advantage unless you want to reimplement Atom generation for the thrill of it. The open source ecosystem for Jekyll is, while not as large as you might hope, probably as large as you need. And its popularity means that it plays nicely with things like [Github Pages](https://pages.github.com/) and [Netlify](https://www.netlify.com/) for deployments.
 
 I use a handful [third party packages](https://github.com/jmduke/arcana.computer/blob/master/Gemfile) to power
-this site, as well. They are all pretty uninteresting and self-explanatory.
+this site, as well. They are all pretty uninteresting and self-explanatory:
+
+| File | Description |
+|-------|--------|
+| [`jekyll-toc`](https://github.com/toshimaru/jekyll-toc) | lets me have the very Gwern-inspired table of contents, such as the one atop this very page |
+| [`jekyll-last-modified-at`](https://github.com/gjtorikian/jekyll-last-modified-at) | generates updated timestamps based on git metadata, because otherwise I will assuredly forget |
 
 ### Netlify
 
@@ -254,6 +276,7 @@ I'd like to give thanks to the following folks (and if you're not on this list a
 | Jason Li | Pointing out dark mode issues |
 | Philip C. Davis | Pointing out dark mode issues |
 | Altay Demir | Pointing out dark mode issues |
+| Stefan VanBuren | Teaching me the word "prutsen" |
 
 Lastly, if there's anything I can convince you of: you should build a personal site, you should obsess over it, you should meticulously document it, and you should have quite a bit of fun doing so. (It's worth it.)
 
@@ -264,8 +287,10 @@ Lastly, if there's anything I can convince you of: you should build a personal s
 
 [^4]: I will warn you that the iOS apps are... not particularly good, at least at the scale of content that I'm using it with, and I end up dropping down to the browser for most use cases. But at least they don't do the "you cannot use the web version at all if we detect you are on an iOS device" thing!
 
-[^5]: And for what it's worth, I still listen to podcasts. Well, podcast. [Zach Lowe](https://twitter.com/zachlowe_nba) and [Dan Carlin](https://www.dancarlin.com/) are very good.
+[^5]: And for what it's worth, I still listen to podcasts. [Zach Lowe](https://twitter.com/zachlowe_nba) and [Dan Carlin](https://www.dancarlin.com/) are very good.
 
 [^6]: Like this one!
 
 [^7]: There is no more inspirational piece of programming writing to me than [Hexing the technical interview](https://aphyr.com/posts/341-hexing-the-technical-interview).
+
+[^8]: My friend Harrison calls this action "book reports for grown-ups", which I find equal parts apt and endearing.

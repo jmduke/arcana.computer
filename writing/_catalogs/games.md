@@ -19,5 +19,7 @@ but even within those confines I'm fairly normcore (lots of Final Fantasy, Fire 
 and Pokemon — though maybe describing my RPG tastes as normcore is showing that I care
 too much about the niche.)
 
+(Also, be warned: **my writeups will probably contain spoilers.**)
+
 {% assign sorted = site.data.content | sort: 'date' | reverse | where_exp:"item", "item.type == 'Game' and item.rating" %}
 {% include timeline.html content=sorted %}

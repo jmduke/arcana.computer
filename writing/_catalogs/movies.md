@@ -17,6 +17,8 @@ have outgrown my television phase [^1] but I don't make a particularly strong ha
 
 There is one exception to this, which is that almost every Sunday night for the past year my partner and I have watched a movie together. These come in phases — we had our Miyazaki phase, our pre-code screwball phase, and our Harry Potter phase — but it's been a really nice tradition.
 
+(Also, be warned: **my writeups will probably contain spoilers.**)
+
 {% assign sorted = site.data.content | sort: 'date' | reverse | where_exp:"item", "item.type == 'Movie' and item.rating" %}
 {% include timeline.html content=sorted %}
 

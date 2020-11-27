@@ -62,6 +62,26 @@ If you are anything like me, you will be _shocked_ by two things:
 - Urgency fades. Things that you thought were time-sensitive and necessary at 10am will look sepia and simple eight hours later, once the novelty has passed. They might be recontextualized; they might be resolved by someone else; they might be things you no longer want or need to do.
 - Lots of things try to randomize you! I collect around forty or fifty items over the course of a day, and seeing them all added up gives a really stark sense of just how many incoming stimuli vie for my attention.
 
+## Employ a weekly review
+
+> It's not about the task lists or tickler files or whatever. It's about being able to take complete stock of your life on a regular basis. Everything else is based on that. You get everything captured and in one place so you can look at it and say, "Okay, is this working?" [madhadron](https://news.ycombinator.com/item?id=25134958)
+
+## Failure cases
+
+### Ignoring your list
+
+Here is a standard failure case that I run into:
+
+1. I collate my list of twenty or so items for the day. (The number of items doesn't matter; just imagine that it is a healthy and reasonable amount of work for the day.)
+2. The list contains some items I find uninteresting or distateful. Going through some annoying emails, say; or perhaps finally cleaning out the gutters.
+3. I remember some work that is not in my list but _is_ something I want to do eventually: maybe a fully-scoped ticket on an epic that I haven't quite committed to, or an interesting blog post idea.
+4. I spend a large amount of time working on _that_ instead.
+5. It is now the end of the day, and my list of items is much less burnt-down than I had hoped and planned, and so I despair.
+
+It is easy to trick yourself into thinking that working with urgency and focus is a good substitute for working on the most important and urgent thing. It is always a lie! If those exciting work items that you'd rather do instead are the right thing to work on, then they should be part of your list; if the items that you don't want to work on are truly avoidable, then just delete them from your list.
+
+But ignoring your list is a slippery slope. The list only works when you can have absolute faith and reliance in it; as soon as you start second-guessing it, it is just a fake way of pretending that you are Working On The Right Thing.
+
 ## Further reading
 
 - [Getting Things Done](https://www.amazon.com/Getting-Things-Done-Stress-Free-Productivity/dp/0142000280). This is the ur-text on productivity for a lot of folks, myself included: I don't agree with everything in the book, but the majority of it is the foundation of how I try and organize myself, and a lot of the points I outline above are ripped straight from GTD. (I also )
