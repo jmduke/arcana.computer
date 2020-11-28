@@ -8,9 +8,17 @@
     margin-top: 1em;
     margin-right: 1em;
     float: left;
+    width: $header-size;
+    box-sizing: border-box;
 
     @media (prefers-color-scheme: dark) {
         background-color: $soft-color--dark-mode;
+    }
+
+    @media only screen and (max-width: $mobile-breakpoint) {
+        border-bottom-left-radius: 0;
+        margin-left: -10px;
+        border-top-left-radius: 0;
     }
 
     ul {
