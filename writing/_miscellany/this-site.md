@@ -92,7 +92,15 @@ There is a lot of interesting writing about spaced repetition to better recall y
 1. Being able to idly scroll back to 2017 and look at all of the things you were reading and consuming and playing as a means of time travel, in much the same way it is fun to pass a city block five years after you moved away from the neighborhood
 2. Forcing yourself to _digest_ what you just spent twenty hours playing or two hours watching or whatever. [^8]
 
-Additionally, being diligent about trying to keep these consumptive catalogs has — even in just a year's time — yielded some substantive effects. I've "learned" (or at least externalized my learning of) over a hundred new words, and I've written (at the time of this writing) <strong>sixty thousand words</strong> about the books, movies, and games I've spent my time with.
+{% assign wc = 0 %}
+{% for c in site.data.content %}
+{% if c.summary %}
+{% assign wcc = c.summary | number_of_words %}
+{% assign wc = wc | plus: wcc %}
+{% endif %}
+{% endfor %}
+
+Additionally, being diligent about trying to keep these consumptive catalogs has — even in just a year's time — yielded some substantive effects. I've "learned" (or at least externalized my learning of) over a hundred new words, and I've written <strong>{{ wc }} words</strong> about the books, movies, and games I've spent my time with. [^9]
 
 ## Implementation
 
@@ -294,3 +302,5 @@ Lastly, if there's anything I can convince you of: you should build a personal s
 [^7]: There is no more inspirational piece of programming writing to me than [Hexing the technical interview](https://aphyr.com/posts/341-hexing-the-technical-interview).
 
 [^8]: My friend Harrison calls this action "book reports for grown-ups", which I find equal parts apt and endearing.
+
+[^9]: Don't worry; this number is dynamically generated every time I publish this site. I'm solipstic, but I'm also rather lazy.

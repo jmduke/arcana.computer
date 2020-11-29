@@ -143,9 +143,22 @@ blockquote {
   margin-bottom: 2em;
   margin-top: 1em;
   display: flex;
+  flex-direction: column;
 
   p {
     margin: 0;
+    font-size: 16px;
+    line-height: 20px;
+    font-style: oblique;
+  }
+
+  ul {
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+
+  li {
+    margin-bottom: 5px;
     font-size: 16px;
     line-height: 20px;
     font-style: oblique;
