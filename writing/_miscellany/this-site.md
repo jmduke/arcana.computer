@@ -183,7 +183,7 @@ I’ve spent a lot of time trying out different static site generators. I’ve a
 
 Jekyll is good and I would recommend using it. It has drawbacks: it is somewhat slow (my site takes around twenty seconds to recompile, which is painful especially when I’m messing around with CSS), it is not particularly extendible, and it relies on a very finicky Ruby toolchain.
 
-But it is popular — it is very rare to find yourself to be the first person to try and do something with Jekyll, which is a very large advantage unless you want to reimplement Atom generation for the thrill of it. The open source ecosystem for Jekyll is, while not as large as you might hope, probably as large as you need. And its popularity means that it plays nicely with things like [Github Pages](https://pages.github.com/) and [Netlify](https://www.netlify.com/) for deployments.
+But it is popular — it is very rare to find yourself to be the first person to try and do something with Jekyll, which is a very large advantage unless you want to reimplement Atom generation for the thrill of it. [^11] The open source ecosystem for Jekyll is, while not as large as you might hope, probably as large as you need. And its popularity means that it plays nicely with things like [Github Pages](https://pages.github.com/) and [Netlify](https://www.netlify.com/) for deployments.
 
 I use a handful [third party packages](https://github.com/jmduke/arcana.computer/blob/master/Gemfile) to power
 this site, as well. They are all pretty uninteresting and self-explanatory:
@@ -304,3 +304,5 @@ Lastly, if there's anything I can convince you of: you should build a personal s
 [^8]: My friend Harrison calls this action "book reports for grown-ups", which I find equal parts apt and endearing.
 
 [^9]: Don't worry; this number is dynamically generated every time I publish this site. I'm solipstic, but I'm also rather lazy.
+
+[^11]: This is not an arbitrary or unfair example! I was helping a friend build a blog powered by [Next.js](https://nextjs.org/) and they were completely stymied by the inexistence of a "RSS feed generator" plugin. Next.js is a great tool and one that I look forward to finding the right use case for; I do not think "blogging as if it was 2006" is that use case.

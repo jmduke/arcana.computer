@@ -25,9 +25,11 @@ of how good I think a book is. "Good" is relative and intentionally squishy; I w
 - How strongly would I recommend it to someone?
 
 Additionally, since late 2019 I've been trying to write up my thoughts on books after I complete them, as an
-exercise in switching from consumptive energies to productive ones.
+exercise in switching from consumptive energies to productive ones. This is an exercise for whom I give [Tom MacWright](https://macwright.com/reading/) lots of credit: I'd been collecting this information for a while now, but hadn't done anything interesting with surfacing or externalizing it. [^1]
 
 (Also, be warned: **my writeups will probably contain spoilers.**)
 
 {% assign sorted = site.data.content | sort: 'date' | reverse | where_exp:"item", "item.type == 'Book' and item.rating" %}
 {% include timeline.html content=sorted %}
+
+[^1]: Tom's five-star rating system is also superior in legibility to my ten-star one, a fact I only slightly resent.

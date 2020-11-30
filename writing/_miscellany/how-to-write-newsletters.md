@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Notes on newsletters
-draft: true
+placeholder: true
 ---
 
 # Notes on newsletters
