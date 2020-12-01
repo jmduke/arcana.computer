@@ -123,6 +123,19 @@ ol {
 
   li {
     min-height: 30px;
+
+    ol {
+      margin-top: 1em;
+
+      li:before {
+        width: 25px;
+        height: 25px;
+        line-height: 25px;
+        margin-top: 0;
+        opacity: 0.6;
+        margin-left: -35px;
+      }
+    }
   }
 }
 
