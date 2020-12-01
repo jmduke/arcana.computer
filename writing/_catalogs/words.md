@@ -41,7 +41,7 @@ th:last-child, td:last-child  {
 |---|----|
 | The NYT Crossword | {{ nyt }} |
 | Twitter | {{ twitter }} |
-| Books I've read | {{ books }} |
+| [Books I've read](/catalogs/books) | {{ books }} |
 | Wikipedia | {{ wikipedia }} |
 | Miscellany | {{ miscellany }} |
 
