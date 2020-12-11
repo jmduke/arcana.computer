@@ -84,10 +84,6 @@
           {% endif %}
         </div>
       </div>
-      <div class="tabular-content-text">
-        {% if item.summary %} {{ item.summary | markdownify }} {% else %} {{
-        item.definition | markdownify }} {% endif %}
-      </div>
       <div class="tabular-content-header-colophon">
         {% if item.author %}
         <div class="tabular-content-header-colophon-item">
@@ -118,6 +114,10 @@
           ISBN: {{ item.isbn }}
         </div>
         {% endif %}
+      </div>
+      <div class="tabular-content-text">
+        {% if item.summary %} {{ item.summary | markdownify }} {% else %} {{
+        item.definition | markdownify }} {% endif %}
       </div>
     </div>
   </div>

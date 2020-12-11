@@ -30,6 +30,21 @@ I think my philosophy comes down to a few specific things:
 
 If that high-level overview sounds interesting and useful to you (even if it sounds facile — _especially_ if it sounds facile), then I think you should read more.
 
+## Find your own two minute rule
+
+> If you determine an action can be done in two minutes, you actually should do it right then because it’ll take longer to organize it and review it than it would be to actually finish it the first time you notice it. [David Allen, Getting Things Done](https://bookshop.org/books/getting-things-done-the-art-of-stress-free-productivity/9780143126560)
+
+> I mean, sure, sometimes. [me](http://arcana.computer)
+
+The "two minute rule" is a somewhat contentious part of the GTD philosophy. On one hand, it acts as a strong forcing function to reduce the overhead of task management: rather than plan and notate and ruminate and prioritize and, at long last, execute a thing, you just do the thing if it is sufficiently small and granular.
+
+Like all aspects of GTD (and any other system), it's important to adhere to this concept only to the extent that it helps you. For instance, there are two big extentuating circumstances that prevent me from following the letter of the law:
+
+1. I have two genres of day: a managerial day, in which I am on calls and walking around the house and reacting to whatever is going on in a given day; an individual day, in which my calendar is free and my time is my own. For the former case, I tend to follow this rule pretty heavily: if I'm on a call with one of my teammates and I notice that I need to take out the recycling I'm just going to do it then and there. [^3] But for the latter, there is such a large switching cost between me being in flow and me being out of flow unless it's the task equivalent of "drink some water" it's going into the inbox.
+2. Two minutes is a weird cutoff, and if I'm already sort of flying by the seat of my pants I tend to have the number be closer to five-to-seven minutes. I don't even know _what_ a two minute task entails!
+
+(Also, all of these tiny tasks should end up in your inbox and not your to-do list, as is discussed below.)
+
 ## Employ linear backoff
 
 It is a fairly often occurrence that I don’t get everything done that I want to or plan to in a given day. I think this is largely fine, and probably a Umesh-ism [^1] in its own right.
@@ -89,3 +104,4 @@ But ignoring your list is a slippery slope. The list only works when you can hav
 
 [^1]: “If you’ve never missed a flight, you’re spending too much time in airports.”
 [^2]: If this sounds vague, that’s intentional. “Time spent at my desk” is a close but imperfect answer — I get a lot done on my iPad, as more and more of my time is spent reading or writing.
+[^3]: I guess another productivity tip: take all of your meetings as phone calls so you can walk around the house (or the neighborhood). Yes, you are _that guy_ and it is somewhat annoying for the first meeting and then everyone gets used to it and it is glorious.
