@@ -1,6 +1,5 @@
 .section-nav {
     list-style-type: none;
-    background-color: $soft-color;
     padding: 1em;
     font-size: 14px;
     border-radius: 5px;
@@ -10,6 +9,16 @@
     float: left;
     width: $header-size;
     box-sizing: border-box;
+    margin-left: calc(-200px - 1em);
+    box-sizing: border-box;
+    position: sticky;
+    top: 1em;
+    text-align: right;
+
+    @media only screen and (max-width: $mobile-breakpoint) {
+        display: none;
+    }
+
 
     @media (prefers-color-scheme: dark) {
         background-color: $soft-color--dark-mode;
@@ -23,16 +32,21 @@
 
     ul {
         list-style-type: none;
-        padding-left: 10px;
     }
 
     a {
         color: inherit !important;
+        transition: all 50ms ease-in-out;
+
+        &.active {
+            color: red;
+        }
     }
 
     .toc-h2 {
         font-size: 14px;
         font-weight: bold;
+        margin-bottom: 1em;
     }
 
     .toc-h3 {

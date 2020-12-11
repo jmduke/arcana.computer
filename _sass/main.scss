@@ -36,10 +36,6 @@ img {
   max-width: 100%;
 }
 
-h2 {
-  font-size: 22px;
-}
-
 pre,
 code {
   font-family: $monospace-font;
@@ -186,23 +182,6 @@ blockquote {
   }
 }
 
-h1 {
-  font-weight: 900;
-}
-
-h2 {
-  font-weight: 800;
-  margin-top: 4em;
-
-  &:first-of-type {
-    margin-top: 1em;
-  }
-}
-
-h3 {
-  margin-top: 3em;
-}
-
 a.footnote {
   display: none;
 }
@@ -271,6 +250,11 @@ a {
   grid-template-columns: 1fr 1fr;
   margin-top: -20px;
 
+  h2 {
+    margin-top: 0 !important;
+    margin-bottom: 0;
+  }
+
   @media only screen and (max-width: $mobile-breakpoint) {
     grid-template-columns: 1fr;
   }
@@ -315,8 +299,9 @@ a {
 }
 
 .colophon {
-  margin-top: -1em;
   opacity: 0.4;
+  flex: 1;
+  text-align: right;
 }
 
 @media only screen and (max-width: $mobile-breakpoint) {
@@ -405,8 +390,14 @@ tr:last-of-type td:last-of-type {
   border-bottom-right-radius: 5px;
 }
 
+.page-header {
+  display: flex;
+  align-items: center;
+}
+
 @import "timeline";
 @import "subscription-widget";
 @import "lightbox";
 @import "littlefoot";
 @import "toc";
+@import "headings";
