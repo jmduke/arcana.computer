@@ -14,10 +14,12 @@
     {% endif %}
     {% endfor %}
     {% for item in more_items %}
+    {% if item.type == include.type %}
     {% unless item.image[0].url contains 'webp' %}
         {% if item.image[0].url %}
             <img src="{{ item.image[0].url }}" style="opacity: 0.5; filter: grayscale(1)" />
         {% endif %}
     {% endunless %}
+    {% endif %}``
     {% endfor %}
  </div>

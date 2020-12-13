@@ -103,11 +103,13 @@ My partner and I have never been closer, and I mean that figuratively which is g
 
 There were so many highlights, though, and a surprising amount of firsts. We both got Switch Lites, and it sounds somehow silly to say that I'd never been able to actually play video games with someone who I loved but now I can and _it is excellent_. We got Telemachus, as adequately gushed over above. We got to go to Scotland and climb Arthur's Peak; we got to take a quick trip to Portland before the world shut down. We learned how fun it was to cook together; we learned how to go on bike rides together.
 
-I learned the beauty and grace of having the love of your life fall asleep on the couch next to you. I learned about face masks and _Hocus Pocus_. 
+Some of the firsts were just for me, though. I got to learn the beauty and grace of having the love of your life fall asleep on the couch next to you. I got to learn about about face masks and about _Hocus Pocus_. About the right way to chop an onion, and how to make a killer chicken parm. About a new set of Christmas traditions and Thanksgiving traditions.
+
+I am very excited to learn even more next year, and to have the greatest partner in the world from whom I get to learn.
 
 ...
 
-On the non-soulmate side of things,
+On the non-soulmate side of things, one of the things I really wanted to do this year is get better at maintaining friendships and long-distance relationships. This was also, uh, hard, mostly by virtue of the quarantine, but I do think I got better (though insufficiently so) at responding to people. I am still bad at texting back, and sometimes this is deliberate [^8]. I want to steal a friend's idea of "holding office hours for chats with friends" next year by making more room for FaceTime and phone calls, which drain me and distract me so much less than being constantly alt-tabbing to Messages.app.
 
 ### Miscellany
 
@@ -185,7 +187,7 @@ That being said, if there's one thing I learned it's that the days of playing th
 > <br /><br />
 > This isn’t a perfect game but I can’t remember one that has highs quite as high as CrossCode.
 
-
+(Honorable mentions go to __Hades__, which is probably the most well-designed game I've ever played in every sense of the world, and __Diablo III__, for being the platonic ideal of a loot grind.)
 
 ### Movies
 
@@ -198,6 +200,8 @@ I think I watched more movies this year thajn any other year of my life! I credi
 > inspired by my recent acquisition of nick and nora glasses: this was just….delightful? a noir with the sensibility of a light-hearted soderbergh movie and i will be appropriately binging all of the non-dashiell hammett sequels
 
 The sequels were, unfortunately, underwhelming, and I don't quite recommend them, but you should absolutely watch _The Thin Man_.
+
+(Honorable mentions go to __Bringing Up Baby__, a perfect screwball comedy, and __Roma__, which by virtue of being the first movie I watched all year had the unfortunate side-effect of raising the bar very high on everything to come.)
 
 ### Television
 
@@ -213,12 +217,12 @@ I think this might change next year! There's not a lot of room for television in
 <img src="https://media.pitchfork.com/photos/5e98fd8b34830c0008097f47/1:1/w_320/FIONAAPPLECOVER.jpg">
 <img src="https://media.pitchfork.com/photos/5ec45326ee33b6018584d7a9/1:1/w_320/Notes%20on%20a%20Conditional%20Form_The%201975.jpg">
 <img src="https://upload.wikimedia.org/wikipedia/en/thumb/c/ca/Avalanches-wwaly.jpg/220px-Avalanches-wwaly.jpg">
-<img src="https://cdn2.albumoftheyear.org/345x/album/271855-anime-trauma-and-divorce.jpg">
+<img src="https://media.pitchfork.com/photos/5f875532cd85cd1e18b56621/1:1/w_320/Anime,%20Trauma%20and%20Divorce_Open%20Mike%20Eagle.jpg">
 </div>
 
 I can't think of any harsher neg than the fact that Spotify Wrapped listed my favorite genre of the year as "Lo-Fi Beats" and, honestly, fair. In much the same way that I retreated from the world of television, this was a year of millenial muzak for me. I can count the number of 2020 albums I listened to and loved on one hand and an extra finger, as shown above: my selection heuristic was nothing more clever than "occassionally check Pitchfork for new music from artists I already know", or secondarily, "wait until my brother or friends gives me a good recommendation". I probably spent more time listening to [Porter Robertson's Secret Sky set](https://www.youtube.com/watch?v=4KGsgpFiswQ) than anything else that came out in 2020.
 
-Beyond that: lots of lofi, lots of Miles Davis, lots of Carly Rae. [^4]
+Beyond that: lots of [lofi](https://m.youtube.com/watch?v=hHW1oY26kxQ), lots of Miles Davis, lots of Carly Rae. [^4]
 ## Coda
 
 I will elide the requisite series of clichés that have come to define this year, and especially the way we tend to write about this year with some sense of ironic remove. I think there was a point for the "[gestures wildly at 2020]" genre of phrase, and that point has long passed. 
@@ -229,7 +233,7 @@ But that's not how this works.
 
 It's been a really hard year; I think it was the most difficult year of my life since graduating college. 
 
-[Last year](https://arcana.computer/catalogs/years#2019-in-review), a more optimistic and positive version of myself wrote:
+Last year, a more optimistic and positive version of myself wrote:
 
 > in 2020, i want to focus on the things that i tend to be bad about making time or space for in my life but that i never regret doing. and if i do none of these things, that is completely fine. i have found myself the past two months aghast at my luck and privilege. this is the first time i have been so conscious (or self-conscious) of how good i have it; i think things can be even better, but if all twelve months of 2020 are like the worst month of 2019 i will consider myself prudent and blessed. [2019 in review](https://arcana.computer/catalogs/years#2019-in-review)
 
@@ -244,7 +248,7 @@ In spring and summer, 2021 still felt like an abstract demarcation: a time that 
 - **Get back into a firm schedule**. There were a lot of adjustments in 2020, between the existential dread and the new dog and the new role at work! Each of these played a part in eroding the strict timetables I keep for myself to the extent that, as I write this, I'm living in a bit of a productivity no-mans-land where the only constant in my day is a morning two-mile walk with my partner and Telly. Starting January 1st (and, well, the next two weeks, as a bit of a trial run), I'm shifting back to a dedicated time to wake up and work out each weekday, and a strict "leave the office for the day" as well.
 - **Be a little bit better with my leisure**. "Being disciplined about leisure" is one of those absolute LinkedIn-core garbage things that unfortunately I 100% buy into, and am thinking about after finishing an otherwise not-very-good book dedicated to the subject. I don't think there's some grand unifying theory here or dramatic sea change I need to commit to. I'm pretty good at spending my time well! I just need to stop two things: playing Basketball GM and browsing Twitter. (Between those two there's probably a solid 45 minutes every evening that I get back that I'd rather spend listening to an audiobook while playing Final Fantasy or, you know, reading books like an adult.)
 - **Make sincere and dedicated process towards my personal businesses.** As detailed above, I didn't make significant progress in Buttondown or Spoonbill or anything new. I'm not exactly beating myself up over this — eschewing investment in side projects was the right thing to do for a number of reasons — but after a year where any success was accidental I want to be a bit more methodical about growing my personal businesses. I think this mostly will come from getting back into a firm schedule: with a solid two or three hours a day going towards my personal projects, I think I can end 2021 at around 10K MRR, which would feel like a real success.
-- **Complete some house projects.** 2020 was supposed to be the year of home improvement! And then of course that did not happen; work took over, quarantine took over, and every single general contractor got booked until 2022. Much to the terror of my partner, I'd really like to get some stuff done myself [^3]. It feels like a rewarding and pleasant use of my time to cosplay as [Simon Sarris]() for a bit.
+- **Complete some house projects.** 2020 was supposed to be the year of home improvement! And then of course that did not happen; work took over, quarantine took over, and every single general contractor got booked until 2022. Much to the terror of my partner, I'd really like to get some stuff done myself [^3]. It feels like a rewarding and pleasant use of my time to cosplay as [Simon Sarris](https://www.instagram.com/simonsarris/?hl=en) for a bit.
 - **Read more poetry, share more poetry.** I don't know of any constants in my life quite like the one that my life knows more joy and peace when I am breathing through poetry.
 
 [^1]: I will go to my grave arguing that it would have been a seven-game series if Dragic and Bam were actually at full strength.
@@ -260,3 +264,5 @@ In spring and summer, 2021 still felt like an abstract demarcation: a time that 
 [^6]: All of the credit goes to my partner, who both pushed me to actually do it _and_ PM'd the vast majority of the work. Without her I would have just farted around with templating engines for two months before abandoning the whole thing.
 
 [^7]: Honey, I know you're going to read this and say "I _still_ get mad at you for how you do the dishes, because you do them wrong", and to that I have no rejoinder.
+
+[^8]: "Talk with people more often" and "spend less time on my phone" spent a lot of time being antithetical goals to one another, it turns out!
