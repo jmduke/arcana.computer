@@ -39,6 +39,7 @@
   {% for item in include.content %}
   <div 
     class="tabular-content-item"
+    {% if item.type %}data-type="{{ item.type }}"{% endif %}
     {% if item.rating %}data-rating="{{ item.rating }}"{% endif %}
     {% if item.genre %}data-genre="{{ item.genre }}"{% endif %}
   >

@@ -1,0 +1,262 @@
+---
+title: 2020 in Review
+layout: page
+image: /assets/img/share/this-site.png
+excerpt: My 2020, in review.
+toc: true
+disable_lightbox: true
+end_cta: true
+---
+
+<style>
+    .content-container {
+        column-gap: 10px;
+        row-gap: 10px;
+        column-count: 4;
+        z-index: 2;
+        position: relative;
+        background: #fcf9f4
+    }
+
+    .content-container img {
+        margin-bottom: 10px;
+    }
+
+    .redacted {
+        background: #141e30;
+    }
+
+    figcaption {
+        margin-top: -1em;
+        opacity: 0.6;
+        font-size: 14px;
+        text-align: center;
+    }
+</style>
+
+<div class="notice">
+<span>
+    You may be interested in previous years in review. Unfortunately, they are not all as pretty
+    and organized as this one, but they nonetheless exist <a href="">here</a>.
+    </span>
+</div>
+
+## Personal
+
+### Health
+
+I am ending 2020 just as I started it: a little overweight, a little overtired, and with a perplexingly persistent cough that forces me to continuously convince my parents that "no, no, it's nothing serious, I promise, I got tested, it's just an annoying cough."
+
+Really, I think my health and fitness this year has been defined more by absence than presence (or perhaps stasis rather than change). 
+
+I've still been lifting, thanks to the timely acquisition of a backyard squat rack, but lack of routine & a solid program means that I've generally been doing "fuck-around sessions" rather than actually committing to linear progression. (Same with cardio: I was biking a lot in the summer, which was delightful, but mostly to take advantage of the gorgeous Seattle weather than to push myself.) 
+
+I've been eating mostly well (we've been cooking much more, which helps with that), but not _super_ well — especially the past few months, where my carbohydrate and alcohol intake has not-so-gently sloped. 
+
+### Telemachus
+
+<div class="content-container" style="column-count: 4">
+<img src="/assets/img/telly/1.JPG" />
+<img src="/assets/img/telly/2.JPG" />
+<img src="/assets/img/telly/3.JPG" />
+<img src="/assets/img/telly/4.JPG" />
+<img src="/assets/img/telly/5.JPG" />
+<img src="/assets/img/telly/6.JPG" />
+<img src="/assets/img/telly/7.JPG" />
+<img src="/assets/img/telly/8.JPG" />
+<img src="/assets/img/telly/9.JPG" />
+<img src="/assets/img/telly/10.JPG" />
+<img src="/assets/img/telly/11.JPG" />
+<img src="/assets/img/telly/12.JPG" />
+<img src="/assets/img/telly/13.JPG" />
+<img src="/assets/img/telly/14.JPG" />
+</div>
+
+In case it isn't obvious, Telemachus is a _very_ good boy. (And he has an [Instagram](https://www.instagram.com/itstellybelly/)!)
+
+![](https://pbs.twimg.com/media/EipTwKCVgAABYDT?format=png&name=small)
+<figcaption>A note I wrote during Telly's first month at home.</figcaption>
+
+We got Telly in early September. It was rough at first! I had just started a transition into management at work and was working more than usual, and in times of stress and chaos I cling to my routines: routines which are exploded into dust when a tiny ten-week corgi puppy arrives in the house.
+
+The first month was the hardest as we had to reorient our lives around the lil guy: my partner and I spent every morning calibrating our schedules to see who was on "Telly duty" for each thirty minute block, and we spent each night dreading the two or three times he would whine to go out.
+
+He was — is! — a good puppy, though. He took to his kennel crate immediately; most of his accidents were our fault, not his; he was and is _incredibly_ friendly and social with humans and dogs alike. And things have gotten much easier, especially as of late: he's five months old now, and minus some teething and barking has chilled out considerably. We've opened up his training pen; he spends every morning chilling with us in bed. He is leaving the trappings of puppydom behind and is basically just A Dog now.
+
+![](https://pbs.twimg.com/media/EnxuguhUcAA9O54?format=jpg&name=small)
+<figcaption>A note I wrote last month.</figcaption>
+
+There is a lot I could write about Telly. I have succumbed, fully and wholly, to the whirlpools of dog ownership: if you have talked with me in the past three months, we have talked about Telemachus, and if by some miracle it was an in-person conversation you likely saw in my eye a votary glint.
+
+It is old hat and honest to say that I would die for this dog. 
+
+The image I want to end on, though, is the one I am looking at right now: after a week of surprising maturity from the little guy (we have given him free reign in the office after an extended incubation time in his prison/cage/"puppy play pen"), he is prone and snoring on the carpet, equidistant between my partner and me. It's a mundane thing, and I look forward to a long life of such mundane things as this.
+
+![](https://i.ibb.co/J27cZdv/image.png)
+<figcaption>The best dog.</figcaption>
+
+### Relationships
+
+I think you have to grade 2020 on a bit of a curve, relationships-wise, right?
+
+My partner and I have never been closer, and I mean that figuratively which is good because obviously it is also literally true. The first few months of quarantine were at times contentious; living together is one thing and being together every second of the day is another. It is funny, looking back, to see the things that were difficult in March: she thought I was constantly mad at her during the work day because I am spacy and curt when I'm in flow; I thought she was going to legitimately murder me for the way I do the dishes. [^7]
+
+There were so many highlights, though, and a surprising amount of firsts. We both got Switch Lites, and it sounds somehow silly to say that I'd never been able to actually play video games with someone who I loved but now I can and _it is excellent_. We got Telemachus, as adequately gushed over above. We got to go to Scotland and climb Arthur's Peak; we got to take a quick trip to Portland before the world shut down. We learned how fun it was to cook together; we learned how to go on bike rides together.
+
+I learned the beauty and grace of having the love of your life fall asleep on the couch next to you. I learned about face masks and _Hocus Pocus_. 
+
+...
+
+On the non-soulmate side of things,
+
+### Miscellany
+
+Some other things that are not quite subheading-worthy but remarkable in their own way:
+
+- The Miami Heat had one of the most exciting playoff runs I can remember, and even though it didn't end in a championship [^1] it was the most fun I've had as a sports fan since 2013.
+- I built this very site, which is unimportant by almost any possible metric or heuristic and was, in all likelihood, a waste of time in a year where I felt hopelessly strapped for time. But it was quite fun, and I am going to continue to have a lot of fun with it.
+- I spent almost the entire year volunteering with [Unloop](), a terrific organization.
+- After a multi-year hiatus from newsletter-writing, I started [Letters to J](https://buttondown.email/letters-to-j) which was — and is! — a delight.
+
+## Professional
+
+### Stripe
+
+2020 was a great and challenging year. I <span class="redacted">aaaaaa</span>, <span class="redacted">aaaaaaaaaaaa aaaaaa</span>, and <span class="redacted">aaaaaaaaaaaa aaaaaaa aaaaaa aa aaaaaa aaaaaaaaaa</span>.  [^5] In particular, I'm excited for <span class="redacted">aaaaaaaa  aaaaaaaaa aaaaaaaaaaaaaaaaaaa aaaaaa.</span>.
+
+I continue to get to learn a lot of new things on a near-daily cadence! <span class="redacted">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable</span>Apache Spark<span class="redacted">. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search </span>Teddy Ruxpin<span class="redacted">. 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).</span>
+
+The most noteworthy development, though, is one that I don't need to redact.
+
+Adjusting to working from home was both easier and harder than expected. My role prior to Stripe was remote, so I had a bit of muscle memory around structuring my day and creating good work/life separation where possible; working next to my partner (with the help of the [Double Desk](https://jmduke.com/2020/03/25/the-double-desk), of course) was a new one. By the end of the year, I realized that I was falling into the same trap that led me to Stripe in the first place: _I miss an office_. I miss having coworkers with which to gather around a coffee machine; I miss the smell of whiteboards; I miss the plants and the food and even the commute.
+
+### Buttondown
+
+Buttondown has grown and fluorished despite my best efforts. I came into the year with something approaching a grand plan — big ships every month! a strong dedicated conversion funnel! finally hiring a customer support person! — and of course none of that happened.
+
+I spent most of my free creative energy this year on Buttondown, which is to say that I didn't have that much free creative energy. I got a couple big projects off the ground: a revised marketing site being the chief among them in terms of ambition and impact. [^6] I have a couple half-baked feature branches (internationalization and revamped pricing) that I really would like to get merged in Q1 2021. And I did a whole lot of small stuff, including moving my private roadmap/issue tracking from Notion to Google Sheets.
+
+Despite a dramatic lack of strong focus, newsletters are kind of going through "a moment" right now, and it turns out that it is a good time to have a newsletter product. MRR increased from __$3100__ to __$5850__, and that near-doubling occludes some notable churns. There is a part of me that feels like if I was even a little more self-disciplined Buttondown could have hit $10,000 MRR — I can dig up a thousand bucks worth of MRR in my inbox from people who churned because I didn't support activation sequences. Whenever I feel too upset about that, I tell my partner, who lovingly reminds me that I already have an incredibly unhealthy relationship with work and that I should stop being an idiot.
+
+The other thing, though, is that my relationship with Buttondown has soured. It is remarkably privileged to look at a successful product and say "but I don't care about this revenue so what's the point?"; I'm sure I _will_ care about the revenue soon, but I need to do some mindset-shifting to make sure that Buttondown remains "the fun product that I get to endlessly tinker with and improve" and not "the thing that means I have to spend ninety minutes every day answering emails about DNS settings".
+
+### Spoonbill
+
+I have written literally __seven__ commits (each one less than twenty lines) for Spoonbill in the calendar year 2020. This is not exactly what I planned: I ended 2019 thinking that Spoonbill was a project I'd devote a lot of time and energy into, to finally transform it from a weird project that happens to be profitable into something with a clear and convincing value proposition.
+
+Despite that, MRR has grown! Spoonbill's up from __$2200__ to __$2950__ (one churn and a bunch of new users). $550 is not exactly a large bump, but considering all but one of those new customers came from them cold emailing me and asking "hey can I pay for API access", I'll take it.
+
+### Miscellany
+
+In a rare display of restraint and maturity, I didn't start anything new this year! No harebrained "oh, this will take a weekend" microservices; no moonlighting engagements; no lazily-constructed infoproducts. 
+
+(I plan to reverse course on this abstention next year, obviously.)
+
+## Content
+
+### Books
+
+{% include collage.html content=site.data.content type='Book' columns=8 %}
+
+I'm really happy with the amount I read this year. (Or, rather, _listened_ and read; especially in the back half of the year I found myself ramping up my audiobook consumption and not having that much time to actually sit and read, which I'll get to later.)
+
+I tried to switch up my ouevre a bit this year, reading more non-fiction than usual. I mostly regret this: there were some really great pieces of non-fiction I read (_The End of Policing_ and _Postwar_ being chief among them) but in general I felt like I wasted a lot of time with books about management and productivity and all of those things. (If it is any consolation, I was mostly listening to those books while playing games or doing chores.)
+
+**Favorite book: The Last Wolf**. I unfortunately read this in February, before I started my practice of spending some time writing my thoughts on books immediately after having completed them, but this was just a _perfect_ excercise in experimental literature, a single sentence that transports you from Berlin to the barren wastelands of central Spain.
+
+### Games
+
+{% include collage.html content=site.data.content type='Game' columns=6 %}
+
+I was actually quite shocked at the above collage, because it certainly _felt_ like I played
+a whole bunch of games this year. Some of these were quite substantial affairs (Xenoblade, CrossCode, and Diablo III) in particular. Some of the games that I've probably spent the most time playing aren't exactly things that I've _finished_ (Baba Is You continues to be a stop-and-start affair; I am around sixty hours into Persona 4 Golden and not yet done; I probably spent a solid hundred hours in Slay The Spire even though I "finished" it last year.) In fact, as dramatic as the collage looks (two thirds of the game I played I didn't finish!) I don't think I've finished as many games in any year as an adult than this one.
+
+That being said, if there's one thing I learned it's that the days of playing through seventy hour JRPGs are probably behind me. Finishing Xenoblade was a chore; finishing Persona 4 Golden is the strongest test of my patience in quite some time. Next year will be shorter games (I'm already excited to play through A Short Hike as a palate cleanser!), I'm sure of it.
+
+**Favorite game: CrossCode**. To quote myself:
+
+> Okay, the game has flaws.
+> <br /><br />
+> It’s overtuned and overstuffed; dungeons should be half the length, a third of the quests should be removed, and the challenge is clearly calibrated for folks who have spent three years on the engine. (I call this “early access syndrome” — releasing to passionate beta users both gives you the privilege of adding a bunch of new content because it’s easy and you don’t have the time pressure, plus it means you’re building content for experienced players rather than novices.)
+> <br /><br />
+> The middle third of the game (everything surrounding Gaia’s Garden, basically) is rough and frustrating and caused me to quit the game once and put it down a second time.
+> <br /><br />
+> But, man. The first fifteen hours of this game is the most pleasant I’ve had in a game maybe ever. It hits all of my nostalgia points — the faux MMO nature reminds me of MapleStory, the characters and writing is warm and charming, and the core gameplay is just so goddamn fun. I love the platforming; I love the trading and progression; I love the grinding on hedgehags.
+> <br /><br />
+> This isn’t a perfect game but I can’t remember one that has highs quite as high as CrossCode.
+
+
+
+### Movies
+
+{% include collage.html content=site.data.content type='Movie' columns=6 %}
+
+I think I watched more movies this year thajn any other year of my life! I credit this to [a burgeoning tradition of Friday Night Movie Night](https://buttondown.email/letters-to-j/archive/4841ad3d-9156-405c-8f36-c1571677a307). 
+
+**Favorite movie: The Thin Man**. To quote myself:
+
+> inspired by my recent acquisition of nick and nora glasses: this was just….delightful? a noir with the sensibility of a light-hearted soderbergh movie and i will be appropriately binging all of the non-dashiell hammett sequels
+
+The sequels were, unfortunately, underwhelming, and I don't quite recommend them, but you should absolutely watch _The Thin Man_.
+
+### Television
+
+I didn't really take it upon myself to watch any television this year. I watched _some_: I introduced my partner to _Cowboy Bebop_ [^2], and we slowly trundled through a couple long-running sitcoms as a dinner-time distraction (_Frasier_, then _Degrassi_, then _Happy Endings_).
+
+I think this might change next year! There's not a lot of room for television in my life at the moment, but I think I'd like to change that (even if I end up becoming a stereotype who can only watch television on a Peloton).
+
+### Music
+
+<div class="content-container" style="column-count: 3">
+<img src="https://media.pitchfork.com/photos/5f66908a537682947f093866/1:1/w_320/Fleet%20Foxes%20-%20Shore%20-%20Art.jpg">
+<img src="https://media.pitchfork.com/photos/5ed815b29bcc962f72cc0bc5/1:1/w_320/RTJ4_Run%20the%20Jewels.jpg">
+<img src="https://media.pitchfork.com/photos/5e98fd8b34830c0008097f47/1:1/w_320/FIONAAPPLECOVER.jpg">
+<img src="https://media.pitchfork.com/photos/5ec45326ee33b6018584d7a9/1:1/w_320/Notes%20on%20a%20Conditional%20Form_The%201975.jpg">
+<img src="https://upload.wikimedia.org/wikipedia/en/thumb/c/ca/Avalanches-wwaly.jpg/220px-Avalanches-wwaly.jpg">
+<img src="https://cdn2.albumoftheyear.org/345x/album/271855-anime-trauma-and-divorce.jpg">
+</div>
+
+I can't think of any harsher neg than the fact that Spotify Wrapped listed my favorite genre of the year as "Lo-Fi Beats" and, honestly, fair. In much the same way that I retreated from the world of television, this was a year of millenial muzak for me. I can count the number of 2020 albums I listened to and loved on one hand and an extra finger, as shown above: my selection heuristic was nothing more clever than "occassionally check Pitchfork for new music from artists I already know", or secondarily, "wait until my brother or friends gives me a good recommendation". I probably spent more time listening to [Porter Robertson's Secret Sky set](https://www.youtube.com/watch?v=4KGsgpFiswQ) than anything else that came out in 2020.
+
+Beyond that: lots of lofi, lots of Miles Davis, lots of Carly Rae. [^4]
+## Coda
+
+I will elide the requisite series of clichés that have come to define this year, and especially the way we tend to write about this year with some sense of ironic remove. I think there was a point for the "[gestures wildly at 2020]" genre of phrase, and that point has long passed. 
+
+I can't think of a more fortunate set of circumstances thrust upon me: living with a loving partner; blessed with a healthy, caring family; working for a company I love in a capacity I enjoy.
+
+But that's not how this works. 
+
+It's been a really hard year; I think it was the most difficult year of my life since graduating college. 
+
+[Last year](https://arcana.computer/catalogs/years#2019-in-review), a more optimistic and positive version of myself wrote:
+
+> in 2020, i want to focus on the things that i tend to be bad about making time or space for in my life but that i never regret doing. and if i do none of these things, that is completely fine. i have found myself the past two months aghast at my luck and privilege. this is the first time i have been so conscious (or self-conscious) of how good i have it; i think things can be even better, but if all twelve months of 2020 are like the worst month of 2019 i will consider myself prudent and blessed. [2019 in review](https://arcana.computer/catalogs/years#2019-in-review)
+
+Little did I know!
+
+A salve in these times, though, has been the conviction that as much as 2020 will be the year I spent in quarantine, it's also the year I got my partner addicted to her Nintendo Switch and the year we got Telly and the year of the rackyard and the year that everyone was briefly obsessed with Fall Guys and the year I finally perfected my omelette recipe. It was the year of saying goodbye but it has, in denser measures, been the year of saying hello.
+
+In spring and summer, 2021 still felt like an abstract demarcation: a time that felt explicitly like "the time when things will be back to normal". Tossing aside the boring discussions of what constitutes normalcy for a second (and, perhaps, the futility of treating New Years' Days as anything other than a quiet hurdle to leap when writing checks) this year more than other years it feels obvious that that is not the case, which makes me if anything _more_ excited to treat 2021 as hallowed ground. 2020 has been a messy and coffee-stained notepad, and the scribbles have devoured my head and heart and hands — I know ripping out the pages and starting fresh is nothing but symbolic, but symbolism is important.
+
+## Goals for 2021
+
+- **Get back into a firm schedule**. There were a lot of adjustments in 2020, between the existential dread and the new dog and the new role at work! Each of these played a part in eroding the strict timetables I keep for myself to the extent that, as I write this, I'm living in a bit of a productivity no-mans-land where the only constant in my day is a morning two-mile walk with my partner and Telly. Starting January 1st (and, well, the next two weeks, as a bit of a trial run), I'm shifting back to a dedicated time to wake up and work out each weekday, and a strict "leave the office for the day" as well.
+- **Be a little bit better with my leisure**. "Being disciplined about leisure" is one of those absolute LinkedIn-core garbage things that unfortunately I 100% buy into, and am thinking about after finishing an otherwise not-very-good book dedicated to the subject. I don't think there's some grand unifying theory here or dramatic sea change I need to commit to. I'm pretty good at spending my time well! I just need to stop two things: playing Basketball GM and browsing Twitter. (Between those two there's probably a solid 45 minutes every evening that I get back that I'd rather spend listening to an audiobook while playing Final Fantasy or, you know, reading books like an adult.)
+- **Make sincere and dedicated process towards my personal businesses.** As detailed above, I didn't make significant progress in Buttondown or Spoonbill or anything new. I'm not exactly beating myself up over this — eschewing investment in side projects was the right thing to do for a number of reasons — but after a year where any success was accidental I want to be a bit more methodical about growing my personal businesses. I think this mostly will come from getting back into a firm schedule: with a solid two or three hours a day going towards my personal projects, I think I can end 2021 at around 10K MRR, which would feel like a real success.
+- **Complete some house projects.** 2020 was supposed to be the year of home improvement! And then of course that did not happen; work took over, quarantine took over, and every single general contractor got booked until 2022. Much to the terror of my partner, I'd really like to get some stuff done myself [^3]. It feels like a rewarding and pleasant use of my time to cosplay as [Simon Sarris]() for a bit.
+- **Read more poetry, share more poetry.** I don't know of any constants in my life quite like the one that my life knows more joy and peace when I am breathing through poetry.
+
+[^1]: I will go to my grave arguing that it would have been a seven-game series if Dragic and Bam were actually at full strength.
+
+[^2]: which she either liked or loves me enough to play the part convincingly of having liked it
+
+[^3]: I'm not talking, like, kitchen remodels here — I just want to lay down some carpet.
+
+[^4]: CRJ fans will note the omission of Dedicated Side B from the shortlist of albums I loved. It's a solid album but seems wholly worse than the A Sides.
+
+[^5]: <span class="redacted">aaaaaaa aa aaaaa</span>, you know?
+
+[^6]: All of the credit goes to my partner, who both pushed me to actually do it _and_ PM'd the vast majority of the work. Without her I would have just farted around with templating engines for two months before abandoning the whole thing.
+
+[^7]: Honey, I know you're going to read this and say "I _still_ get mad at you for how you do the dishes, because you do them wrong", and to that I have no rejoinder.

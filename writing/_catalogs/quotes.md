@@ -3,6 +3,16 @@ layout: catalog
 title: Quotes and highlights
 rss: /rss/quotes.xml
 image: /assets/img/share/quotes.png
+filters:
+  - id: all
+    label: All quotes & highlights
+    selector: .tabular-content-item
+  - id: books
+    label: From books
+    selector: .tabular-content-item[data-source-type='Book']
+  - id: tweets
+    label: From Twitter
+    selector: .tabular-content-item[data-source-type='twitter']
 ---
 
 I collect quotes like trading cards. I don't have a strong criteria for inclusion in this list: if the

@@ -33,10 +33,27 @@ def write_records(records, output_path)
 end
 
 content_records = collect_records('Content')
+diet_records = collect_records('Diet')
+
+content_records.each do |record|
+  if record['dates_consumed']
+    record['dates_consumed'] = record['dates_consumed'].map do |date_id| 
+      diet_records.find do |diet| 
+        diet['id'] == date_id
+      end['date']
+    end
+    if !record['rating']
+      record['last_consumed'] = record['dates_consumed'].map do |d|
+        Date.parse(d)
+      end.max
+    end
+  end
+end
 write_records(content_records, '_data/content.json')
 content_id_to_data = Hash[content_records.collect { |v| [v['id'], v] }]
 
 notebook_records = collect_records('Notebook')
+
 notebook_records.each do |record|
   next unless record['source']
 
@@ -44,7 +61,6 @@ notebook_records.each do |record|
 end
 write_records(notebook_records, '_data/notebook.json')
 
-diet_records = collect_records('Diet')
 diet_records.each do |record|
   next unless record['content']
 

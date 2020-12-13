@@ -1,0 +1,23 @@
+{% assign items = include.content | sort: 'date' | reverse | where_exp:"item", "item.date contains '2020'" %}
+{% assign more_items = include.content | sort: 'date' | reverse | where_exp:"item", "item.last_consumed contains '2020'" %}
+
+<div class="content-container" style="column-count: {{ include.columns }}">
+    {% for item in items %}
+    {% if item.type == include.type %}
+    {% unless item.image[0].url contains 'webp' %}
+        {% if item.image[0].url %}
+            <a href="/catalogs/{{ item.type | slugify }}s#{{ item.name | slugify }}">
+                <img src="{{ item.image[0].url }}" />
+            </a>
+        {% endif %}
+    {% endunless %}
+    {% endif %}
+    {% endfor %}
+    {% for item in more_items %}
+    {% unless item.image[0].url contains 'webp' %}
+        {% if item.image[0].url %}
+            <img src="{{ item.image[0].url }}" style="opacity: 0.5; filter: grayscale(1)" />
+        {% endif %}
+    {% endunless %}
+    {% endfor %}
+ </div>
