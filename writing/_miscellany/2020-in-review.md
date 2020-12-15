@@ -32,6 +32,10 @@ end_cta: true
         font-size: 14px;
         text-align: center;
     }
+
+    td {
+        font-variant: tabular-nums;
+    }
 </style>
 
 <div class="notice">
@@ -42,6 +46,15 @@ end_cta: true
 </div>
 
 ## Personal
+
+| Event | Count |
+|-------|--------|
+| Number of times I've texted "gahhhh sorry for the late response" | 204 |
+| Hours spent gaming with partner | 104 |
+| Photos of Telly taken whilst he sleeps | 44 |
+| Rainier tallboys consumed | 17 |
+| Number of times I thought about restarting [nSuns](https://liftvault.com/programs/powerlifting/n-suns-lifting-spreadsheets/) and then gave up after two weeks | 2 |
+| Dogs acquired | 1 |
 
 ### Health
 
@@ -191,7 +204,7 @@ That being said, if there's one thing I learned it's that the days of playing th
 
 {% include collage.html content=site.data.content type='Movie' columns=6 %}
 
-I think I watched more movies this year thajn any other year of my life! I credit this to [a burgeoning tradition of Friday Night Movie Night](https://buttondown.email/letters-to-j/archive/4841ad3d-9156-405c-8f36-c1571677a307). 
+I think I watched more movies this year thajn any other year of my life! I credit this to [a burgeoning tradition of Sunday Night Movie Night](https://buttondown.email/letters-to-j/archive/4841ad3d-9156-405c-8f36-c1571677a307). 
 
 **Favorite movie: The Thin Man**. To quote myself:
 
