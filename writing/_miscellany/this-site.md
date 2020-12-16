@@ -11,7 +11,7 @@ end_cta: true
 <style>
   .images {
     display: flex;
-    align-items: center;
+    align-items: ctenter;
   }
 </style>
 
@@ -25,7 +25,7 @@ I am going through a serious disenchantment with the concept of _content_. The f
 
 But the process feels empty now. As I write this, a solid portion of my social graph is spending their time investing in Substack content that will be abandoned in much the same way Medium content was abandoned in 2015.
 
-Let me put this another way. Have I told you about why I stopped listening to podcasts?
+Let me put this another way. Have I told you about why I stopped listening to podcasts? [^13]
 
 I used to listen to a bevy of 'em — news podcasts like [The Daily](https://www.nytimes.com/column/the-daily), tech ones like [Accidental Tech Podcast](https://atp.fm/). They weren't mindblowing, but they felt _good_ — it felt virtuous and pragmatic to keep abreast of the zeitgeist, whether that zeitgeist was cultural events or technical discussions or NBA draft rumors.
 
@@ -306,3 +306,5 @@ Lastly, if there's anything I can convince you of: you should build a personal s
 [^9]: Don't worry; this number is dynamically generated every time I publish this site. I'm solipstic, but I'm also rather lazy.
 
 [^11]: This is not an arbitrary or unfair example! I was helping a friend build a blog powered by [Next.js](https://nextjs.org/) and they were completely stymied by the inexistence of a "RSS feed generator" plugin. Next.js is a great tool and one that I look forward to finding the right use case for; I do not think "blogging as if it was 2006" is that use case.
+
+[^13]: A perhaps entertaining rejoinder to this section is my post [five years ago on why I liked podcasts](https://jmduke.com/2015/11/15/podcasts_are_good): "Podcasts feel good because they’re novel, and they’re disparate, and they still feel so undiscovered. I suspect this won’t always be the case – but for now, there’s nothing quite like them."
