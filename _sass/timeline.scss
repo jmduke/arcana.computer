@@ -111,8 +111,8 @@ $timeline-gutter-size: 10px;
 
 .tabular-content-header {
   display: flex;
-  padding-bottom: $timeline-gutter-size;
-  margin-bottom: $timeline-gutter-size;
+  padding-bottom: $timeline-gutter-size / 2;
+  margin-bottom: $timeline-gutter-size / 2;
   padding-left: $timeline-gutter-size * 2;
 }
 
@@ -130,7 +130,7 @@ $timeline-gutter-size: 10px;
 }
 
 .tabular-content-header-colophon-item {
-  margin-bottom: $timeline-gutter-size;
+  margin-bottom: $timeline-gutter-size / 2;
 }
 
 .tabular-content-header-name a {
