@@ -1,3 +1,4 @@
 .env
 .jekyll-cache/
 _site/
+_data/

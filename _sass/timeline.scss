@@ -92,6 +92,7 @@ $timeline-gutter-size: 10px;
 .tabular-content-sidebar-date {
   opacity: 0.4;
   text-align: right;
+  font-variant: tabular-nums;
   @media only screen and (max-width: $mobile-breakpoint) {
     text-align: left;
   }

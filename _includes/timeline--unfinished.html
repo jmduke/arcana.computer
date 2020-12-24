@@ -1,0 +1,126 @@
+{% if page.filters %}
+<div class="timeline-filtering-widget">
+    <div>
+        <strong>Filter this:</strong>
+    </div>
+    <div>
+        {% for filter in page.filters %}
+        <label for="{{ filter.id }}">
+            <input type="radio" name="filter" id="{{ filter.id }}" {% if filter.id == "all" %}checked{% endif %}>
+            {{ filter.label }}
+        </label>
+        {% endfor %}
+    </div>
+</div>
+<script>
+  const FILTER_TO_SELECTOR = {
+    {% for filter in page.filters %}
+      '{{ filter.id }}': "{{ filter.selector }}",
+    {% endfor %}
+  }
+  document.querySelectorAll("input[type='radio']").forEach(
+      (e) => e.addEventListener("change", (e) => {
+          const selectedFilter = e.target.id;
+          document.querySelectorAll(".tabular-content-item").forEach(
+              (item) => {
+                  item.style.display = 'none';
+              }
+          )
+          document.querySelectorAll(FILTER_TO_SELECTOR[selectedFilter]).forEach(
+              (item) => {
+                  item.style.display = 'block';
+              }
+          )
+      }
+  ));
+</script>
+{% endif %}
+<div class="tabular-content-container">
+  {% for item in include.content %}
+  <div 
+    class="tabular-content-item"
+    {% if item.type %}data-type="{{ item.type }}"{% endif %}
+    {% if item.rating %}data-rating="{{ item.rating }}"{% endif %}
+    {% if item.genre %}data-genre="{{ item.genre }}"{% endif %}
+  >
+    <div class="tabular-content-sidebar">
+      <div class="tabular-content-sidebar-date">{{ item.dates_consumed.last }}</div>
+      <div class="tabular-content-sidebar-image">
+        {% if item.image %}
+        <img src="{{ item.image[0].url }}" />
+        {% endif %}
+      </div>
+    </div>
+    <div class="tabular-content">
+      <div class="tabular-content-header">
+        <div class="tabular-content-header-name">
+          {% if item.name %}
+          <a
+            name="{{ item.name | slugify }}"
+            {%
+            if
+            item.permalink
+            %}
+            href="{{ item.permalink }}"
+            {%
+            else
+            %}
+            href="#{{ item.name | slugify }}"
+            {%
+            endif
+            %}
+          >
+            {{ item.name }}
+          </a>
+          {% else %}
+          <strong>
+            {% for c in item.content %} {% if c.rating %} {% if c.type %}
+            <a href="/catalogs/{{ c.type }}s/#{{ c.name | slugify }}"
+              >{{ c.name }}</a
+            >
+            {% endif %} {% else %} {{ c.name }} {% endif %}
+            <br />
+            {% endfor %}
+          </strong>
+          {% endif %}
+        </div>
+      </div>
+      <div class="tabular-content-header-colophon">
+        {% if item.author %}
+        <div class="tabular-content-header-colophon-item">
+          Written by {{ item.author }}
+        </div>
+        {% endif %} {% if item.source or item.content %}
+        <div class="tabular-content-header-colophon-item">
+          {% if item.content %} Discovered via
+          <a href="/catalogs/books/#{{ item.content[0].name | slugify }}"
+            >{{ item.content[0].name }}</a
+          >
+          {% else %} Discovered via {{ item.source }} {% endif %}
+        </div>
+        {% endif %} {% if item.rating %}
+        <div class="tabular-content-header-colophon-item">
+          {% include rating.html rating=item.rating %}
+        </div>
+        {% endif %} {% if item.year %}
+        <div class="tabular-content-header-colophon-item">
+          Made in {{ item.year }}
+        </div>
+        {% endif %} {% if item.console %}
+        <div class="tabular-content-header-colophon-item">
+          {{ item.console }}
+        </div>
+        {% endif %} {% if item.isbn %}
+        <div class="tabular-content-header-colophon-item">
+          ISBN: {{ item.isbn }}
+        </div>
+        {% endif %}
+      </div>
+      <div class="tabular-content-text">
+        {% if item.summary %} {{ item.summary | markdownify }} {% else %} {{
+        item.definition | markdownify }} {% endif %}
+      </div>
+    </div>
+  </div>
+  {% endfor %}
+</div>
