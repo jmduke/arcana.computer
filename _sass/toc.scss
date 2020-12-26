@@ -39,7 +39,7 @@
         transition: all 50ms ease-in-out;
 
         &.active {
-            color: red;
+            color: $accent-color !important;
         }
     }
 

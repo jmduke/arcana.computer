@@ -71,6 +71,9 @@
   {% endunless %}
   <script src="/assets/js/sidenotes.js"></script>
   <script src="https://cdn.usefathom.com/script.js" site="PTBGXOPS" defer></script>
+  {% if page.toc %}
+    <script src="/assets/js/scrollspy.js"></script>
+  {% endif %}
   <script>
     littlefoot.littlefoot()
   </script>
