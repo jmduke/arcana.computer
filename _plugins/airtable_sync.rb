@@ -81,6 +81,7 @@ end
 write_records(dictionary_records, '_data/words.json')
 write_records(collect_records('Veuve'), '_data/veuve.json')
 write_records(collect_records('Press'), '_data/press.json')
+write_records(collect_records('Snippets'), '_data/snippets.json')
 write_records(collect_records('Currently'), '_data/currently.json')
 write_records(collect_records('Years'), '_data/years.json')
 write_records(collect_records('Travels'), '_data/travels.json')
