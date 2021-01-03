@@ -1,0 +1,15 @@
+---
+layout: rss
+title: Snippets
+description: RSS feed of new snippets from arcana.computer
+source: /catalogs/snippets
+permalink: /rss/snippets.xml
+---
+
+{% assign sorted = site.data.snippets | sort: 'date' | reverse %}
+{% for item in sorted limit:10 %}
+  <item>
+    <title>{{ item.name | xml_escape }}</title>
+    <description>{{ item.content | markdownify }}</description>
+  </item>
+{% endfor %}

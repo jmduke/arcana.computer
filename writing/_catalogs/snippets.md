@@ -7,5 +7,5 @@ image: /assets/img/share/snippets.png
 
 For topics that aren't quite essays but aren't quite tweets, either. (A self-imposed rule: no entry here should take longer than ten minutes to write and publish.)
 
-{% assign sorted = site.data.snippets | sort: 'name' | reverse %}
+{% assign sorted = site.data.snippets | sort: 'date' | reverse %}
 {% include timeline--snippets.html content=sorted %}
