@@ -22,7 +22,7 @@ interested in subscribing to monthly updates from this project, you should subsc
 Alternatively, you can jump right into some writing.
 This domain is an ongoing work: links below that are slightly faded are drafts, and unclickable links
 are placeholders for future content.
-You're welcome to peruse them, of course!
+You're welcome to peruse them, of course, and you might also enjoy [my shorter, more blog-y posts](/catalogs/snippets).
 
 <div class="index-row">
 {% include content_pane.html c=site.industry title="Industry" %}
