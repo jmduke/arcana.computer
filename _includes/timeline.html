@@ -1,17 +1,4 @@
 {% if page.filters %}
-<div class="timeline-filtering-widget">
-    <div>
-        <strong>Filter this:</strong>
-    </div>
-    <div>
-        {% for filter in page.filters %}
-        <label for="{{ filter.id }}">
-            <input type="radio" name="filter" id="{{ filter.id }}" {% if filter.id == "all" %}checked{% endif %}>
-            {{ filter.label }}
-        </label>
-        {% endfor %}
-    </div>
-</div>
 <script>
   const FILTER_TO_SELECTOR = {
     {% for filter in page.filters %}
@@ -34,6 +21,19 @@
       }
   ));
 </script>
+<div class="timeline-filtering-widget">
+    <div>
+        <strong>Filter this:</strong>
+    </div>
+    <div>
+        {% for filter in page.filters %}
+        <label for="{{ filter.id }}">
+            <input type="radio" name="filter" id="{{ filter.id }}" {% if filter.id == "all" %}checked{% endif %}>
+            {{ filter.label }}
+        </label>
+        {% endfor %}
+    </div>
+</div>
 {% endif %}
 <div class="tabular-content-container">
   {% for item in include.content %}

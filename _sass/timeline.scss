@@ -38,6 +38,18 @@ $timeline-gutter-size: 10px;
   }
 }
 
+// Gnarly kludge to handle the upper end of timelines, which should
+// only extend upwards past the final point if there's a div or table
+// into which it can extend.
+table + div > .tabular-content-item:first-child,
+div + div > .tabular-content-item:first-child {
+  padding-top: $timeline-gutter-size;
+
+  &:before {
+    top: 2px + $timeline-gutter-size;
+  }
+}
+
 .tabular-content-item {
   margin-bottom: 2em;
   display: flex;
@@ -51,8 +63,21 @@ $timeline-gutter-size: 10px;
     border-left-color: $soft-color--dark-mode;
   }
 
+  &:first-child {
+    padding-top: 0;
+
+    &:before {
+      top: 0;
+    }
+  }
+
   &:last-child {
     border-left: 0;
+    margin-top: -15px;
+
+    &:before {
+      left: -7px;
+    }
   }
 
   &:before {
