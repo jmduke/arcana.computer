@@ -11,7 +11,7 @@ end_cta: true
 <style>
   .images {
     display: flex;
-    align-items: ctenter;
+    align-items: center;
   }
 </style>
 

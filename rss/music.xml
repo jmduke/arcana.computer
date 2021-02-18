@@ -12,5 +12,29 @@ permalink: /rss/music.xml
     <title>{{ item.name | xml_escape }}</title>
     <description>{{ item.summary | markdownify }}</description>
     <pubDate>{{ item.date | date_to_rfc822 }}</pubDate>
+        <link>{%
+            if
+            item.permalink
+            %}
+            {{ site.url }}/catalogs/music/#{{ item.permalink }}
+            {%
+            else
+            %}
+            {{ site.url }}/catalogs/music/#{{ item.name | slugify }}
+            {%
+            endif
+            %}</link>
+    <guid isPermaLink="true">{%
+            if
+            item.permalink
+            %}
+            {{ site.url }}/catalogs/music/#{{ item.permalink }}
+            {%
+            else
+            %}
+            {{ site.url }}/catalogs/msuic/#{{ item.name | slugify }}
+            {%
+            endif
+            %}</guid>
   </item>
 {% endfor %}
