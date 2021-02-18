@@ -20,28 +20,6 @@
         {% endfor %}
     </div>
 </div>
-<script>
-  const FILTER_TO_SELECTOR = {
-    {% for filter in page.filters %}
-      '{{ filter.id }}': "{{ filter.selector }}",
-    {% endfor %}
-  }
-  document.querySelectorAll("input[type='radio']").forEach(
-      (e) => e.addEventListener("change", (e) => {
-          const selectedFilter = e.target.id;
-          document.querySelectorAll(".tabular-content-item").forEach(
-              (item) => {
-                  item.style.display = 'none';
-              }
-          )
-          document.querySelectorAll(FILTER_TO_SELECTOR[selectedFilter]).forEach(
-              (item) => {
-                  item.style.display = 'block';
-              }
-          )
-      }
-  ));
-</script>
 {% endif %}
 <div class="tabular-content-container">
   {% for item in include.content %}
@@ -83,3 +61,26 @@
   </div>
   {% endfor %}
 </div>
+
+<script>
+  const FILTER_TO_SELECTOR = {
+    {% for filter in page.filters %}
+      '{{ filter.id }}': "{{ filter.selector }}",
+    {% endfor %}
+  }
+  document.querySelectorAll("input[type='radio']").forEach(
+      (e) => e.addEventListener("change", (e) => {
+          const selectedFilter = e.target.id;
+          document.querySelectorAll(".tabular-content-item").forEach(
+              (item) => {
+                  item.style.display = 'none';
+              }
+          )
+          document.querySelectorAll(FILTER_TO_SELECTOR[selectedFilter]).forEach(
+              (item) => {
+                  item.style.display = 'block';
+              }
+          )
+      }
+  ));
+</script>

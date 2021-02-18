@@ -18,4 +18,4 @@ what March 2018 was like, but I can look back and see what I was reading and pla
 (Finished bits of media have links to my thoughts on them.)
 
 {% assign sorted = site.data.diet | sort: 'date' | reverse %}
-{% include timeline.html content=sorted %}
+{% include timeline.html content=sorted no_discovery=true %}

@@ -37,6 +37,12 @@ th:last-child, td:last-child  {
 {% endif %}
 {% endfor %}
 
+<style>
+.tabular-content-item {
+  min-height: 50px;
+}  
+</style>
+
 | Source | Count |
 |---|----|
 | The NYT Crossword | {{ nyt }} |
@@ -45,11 +51,6 @@ th:last-child, td:last-child  {
 | Wikipedia | {{ wikipedia }} |
 | Miscellany | {{ miscellany }} |
 
-<style>
-.tabular-content-item {
-  min-height: 50px;
-}  
-</style>
 {% include timeline.html content=site.data.words %}
 
 [^1]: Why "sun words"? Because we were high schoolers, and because we learned of the concept of "SAT words" — words that made Flesch-Kincaid salivate — and because _Sun_day comes after _Sat_urday.  (I told you — insufferable.)
