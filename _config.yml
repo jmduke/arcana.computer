@@ -32,7 +32,7 @@ toc:
     min_level: 2
 description: "Arcana Dot Computer is a web site about engineering and personality by Justin Duke."
 social:
-    twitter: "https://twitter.com/justinmduke"
+    twitter: "https://twitter.com/jmduke"
     email: "mailto:me@jmduke.com"
 compress_images:
   images_path: "assets/img/**/*.{gif,png,jpg,jpeg}"
