@@ -83,6 +83,26 @@ If you are anything like me, you will be _shocked_ by two things:
 
 ## Failure cases
 
+### Not turning off your brain
+
+> Wake up in the morning, put on a comfy sweater, and make a pot of tea (or coffee if you're into that). Make yourself a light breakfast -- biscotti or a scone, toast with jam. Sit down, stare out a window, drink your hot beverage and eat your breakfast. If your neighbor does Tai Chi every morning in their backyard and your window overlooks their backyard, you have my permission to watch them do Tai Chi.
+> [Mouse Reeve, A SUGGESTION ON HOW TO SPEND A DAY AT HOME](https://web.archive.org/web/20161026180440/https://blog.mousereeve.com/a-suggestion-on-how-to-spend-a-day-at-home/)
+
+I am very bad at breaking out of my Puritan work ethic on vacation or mental health days. I am also very bad at recognizing when I am _done for the day_ if I have accomplished everything I set out to do but still have time or energy. This is probably not surprising. If you are, like me, so inclined to write thousands of words about productivity, then the mere _concept_ of productivity is likely entangled with your identity a deeply unhealthy amount.
+
+There are two little tricks I like to play on myself, both somewhat akin:
+
+1. When you're done with your list for the day, you're really done. No adding new things to the list. You can still work if you want to, but you're not allowed to build a new list.
+2. When you're on vacation (or otherwise taking time off), still build a list for the day — but that list can only have a maximum of three items.
+
+These two rules in parallel build some habits: 
+
+- the list is king
+- you must always have a list
+- when the list is done, you are free.
+
+Is this weird and sycophantic? Absolutely! If you don't need to do this — if you are not the type of person who actively feels bad when they are not working, nor the type of person who has a devil on their shoulder on weeks off of work whining that _you could be spending this time better_ — then this section is not for you.
+
 ### Ignoring your list
 
 Here is a standard failure case that I run into:

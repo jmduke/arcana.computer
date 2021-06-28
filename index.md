@@ -12,7 +12,7 @@ title: Home page
 
 Hello! <strong>arcana dot computer</strong> is a weblog from <strong>Justin Duke</strong>. (That's me.)
 
-I work at <a href="https://stripe.com">Stripe</a> during the day and I run <a href="https://buttondown.email">Buttondown</a> and <a href="https://spoonbill.io">Spoonbill</a>. I also have a <a href="https://www.instagram.com/itstellybelly/">very nice Corgi puppy</a>, write a <a href="https://buttondown.email/letters-to-j">weekly newsletter with my friend Jasdev</a>, and mentor aspiring technologists in partnership with <a href="https://www.un-loop.org/">Unloop</a>. With what precious time remains, I generally am either playing video games, watching Miami sports, or writing for this web site.
+I work at <a href="https://stripe.com">Stripe</a> during the day as an engineering manager. Outside of that, I run <a href="https://buttondown.email">Buttondown</a> and <a href="https://spoonbill.io">Spoonbill</a>. I also have a <a href="https://www.instagram.com/itstellybelly/">very nice Corgi puppy</a>, write a <a href="https://buttondown.email/letters-to-j">weekly newsletter with my friend Jasdev</a>, and mentor aspiring technologists in partnership with <a href="https://www.un-loop.org/">Unloop</a>. With what precious time remains, I generally am either playing video games, watching Miami sports, or writing for this web site.
 
 If you're
 interested in subscribing to monthly updates from this project, you should subscribe below or via the [omnibus RSS feed](/rss/omnibus.xml):
