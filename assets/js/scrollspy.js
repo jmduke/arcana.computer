@@ -6,6 +6,8 @@ const TABLE_OF_CONTENTS_LINK_SELECTOR = '.section-nav a'
 // Document-level global state.
 const sections = ELEMENTS_ELIGIBLE_FOR_TABLE_OF_CONTENTS
     .reduce((sum, s) => [...sum, ...document.getElementsByTagName(s)], [])
+    .sort((a, b) => a.offsetTop - b.offsetTop);
+
 const sectionOffsets = sections
     .map(section => section.offsetTop);
 const links = document

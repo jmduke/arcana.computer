@@ -1,0 +1,27 @@
+{% assign items = include.content | sort: 'date' | reverse | where_exp:"item",
+"item.date contains '2021'" %} {% assign more_items = include.content | sort:
+'date' | reverse | where_exp:"item", "item.last_consumed contains '2021'" %}
+
+<div style="overflow-x: scroll">
+  <div
+    class="content-container"
+    style="display: inline-flex; width: 8000px; align-items: center"
+  >
+    {% for item in items %} {% if item.type == include.type %} {% unless
+    item.image[0].url contains 'webp' %} {% if item.image[0].url %}
+    <a
+      href="/catalogs/{{ item.type | slugify }}s#{{ item.name | slugify }}"
+      style="text-align: center; flex-basis: 200px"
+    >
+      <img src="{{ item.image[0].url }}" />
+    </a>
+    {% endif %} {% endunless %} {% endif %} {% endfor %} {% for item in
+    more_items %} {% if item.type == include.type %} {% unless item.image[0].url
+    contains 'webp' %} {% if item.image[0].url %}
+    <img
+      src="{{ item.image[0].url }}"
+      style="opacity: 0.5; filter: grayscale(1)"
+    />
+    {% endif %} {% endunless %} {% endif %} {% endfor %}
+  </div>
+</div>
