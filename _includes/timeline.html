@@ -1,26 +1,4 @@
 {% if page.filters %}
-<script>
-  const FILTER_TO_SELECTOR = {
-    {% for filter in page.filters %}
-      '{{ filter.id }}': "{{ filter.selector }}",
-    {% endfor %}
-  }
-  document.querySelectorAll("input[type='radio']").forEach(
-      (e) => e.addEventListener("change", (e) => {
-          const selectedFilter = e.target.id;
-          document.querySelectorAll(".tabular-content-item").forEach(
-              (item) => {
-                  item.style.display = 'none';
-              }
-          )
-          document.querySelectorAll(FILTER_TO_SELECTOR[selectedFilter]).forEach(
-              (item) => {
-                  item.style.display = 'block';
-              }
-          )
-      }
-  ));
-</script>
 <div class="timeline-filtering-widget">
     <div>
         <strong>Filter this:</strong>
@@ -124,3 +102,28 @@
   </div>
   {% endfor %}
 </div>
+
+{% if page.filters %}
+<script>
+  const FILTER_TO_SELECTOR = {
+    {% for filter in page.filters %}
+      '{{ filter.id }}': "{{ filter.selector }}",
+    {% endfor %}
+  }
+  document.querySelectorAll("input[type='radio']").forEach(
+      (e) => e.addEventListener("change", (e) => {
+          const selectedFilter = e.target.id;
+          document.querySelectorAll(".tabular-content-item").forEach(
+              (item) => {
+                  item.style.display = 'none';
+              }
+          )
+          document.querySelectorAll(FILTER_TO_SELECTOR[selectedFilter]).forEach(
+              (item) => {
+                  item.style.display = 'block';
+              }
+          )
+      }
+  ));
+</script>
+{% endif %}
