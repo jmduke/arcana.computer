@@ -4,7 +4,7 @@ title: Home page
 ---
 
 <style>
-    p {
+    p, li {
         font-size: 24px;
         line-height: 32px;
     }
@@ -12,7 +12,15 @@ title: Home page
 
 Hello! <strong>arcana dot computer</strong> is a weblog from <strong>Justin Duke</strong>. (That's me.)
 
-I work at <a href="https://stripe.com">Stripe</a> during the day as an engineering manager. Outside of that, I run <a href="https://buttondown.email">Buttondown</a> and <a href="https://spoonbill.io">Spoonbill</a>. I also have a <a href="https://www.instagram.com/itstellybelly/">very nice Corgi puppy</a>, write a <a href="https://buttondown.email/letters-to-j">weekly newsletter with my friend Jasdev</a>, and mentor aspiring technologists in partnership with <a href="https://www.un-loop.org/">Unloop</a>. With what precious time remains, I generally am either playing video games, watching Miami sports, or writing for this web site.
+I run <a href="https://buttondown.email">Buttondown</a> and <a href="https://spoonbill.io">Spoonbill</a>. Before that, I spent four years at <a href="https://stripe.com">Stripe</a>, where I did things like:
+
+<ul>
+<li>building <a href="https://stripe.com/sigma">data products</a> into mature lines of business</li>
+<li>managing reporting infrastructure & components used by hundreds and thousands of merchants</li>
+<li>running and scaling Stripe's Product Quality initiative</li>
+</ul>
+
+I also have a <a href="https://www.instagram.com/itstellybelly/">very nice Corgi puppy</a> and mentor aspiring technologists in partnership with <a href="https://www.un-loop.org/">Unloop</a>. With what precious time remains, I generally am either playing video games, watching Miami sports, or writing for this very web site.
 
 If you're
 interested in subscribing to monthly updates from this project, you should subscribe below or via the [omnibus RSS feed](/rss/omnibus.xml):
