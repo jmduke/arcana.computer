@@ -16,11 +16,11 @@ I run <a href="https://buttondown.email">Buttondown</a> and <a href="https://spo
 
 <ul>
 <li>building <a href="https://stripe.com/sigma">data products</a> into mature lines of business</li>
-<li>managing reporting infrastructure & components used by hundreds and thousands of merchants</li>
+<li>managing reporting infrastructure & components used by hundreds of thousands of merchants</li>
 <li>running and scaling Stripe's Product Quality initiative</li>
 </ul>
 
-I also have a <a href="https://www.instagram.com/itstellybelly/">very nice Corgi puppy</a> and mentor aspiring technologists in partnership with <a href="https://www.un-loop.org/">Unloop</a>. With what precious time remains, I generally am either playing video games, watching Miami sports, or writing for this very web site.
+I also have a <a href="https://www.instagram.com/itstellybelly/">very nice Corgi puppy</a> and mentor aspiring technologists in partnership with <a href="https://www.un-loop.org/">Unloop</a>. With what precious time remains, I generally am either playing video games with <a href="https://www.instagram.com/burtonhf/">my fiancé</a>, watching basketball, or writing for this very web site.
 
 If you're
 interested in subscribing to monthly updates from this project, you should subscribe below or via the [omnibus RSS feed](/rss/omnibus.xml):
